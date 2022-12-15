@@ -1,0 +1,2688 @@
+{
+    "visitInfo": {
+        "organizationId": "DEMO_ORG",
+        "organizationName": "Demo Organization",
+        "protocolId": "FACE",
+        "protocolName": "Face Assesment",
+        "visitId": "visit1",
+        "participantId": "P1",
+        "participantSecondaryId": "PATIENT_1",
+        "visitProgress": 0,
+        "softwareVersion": null,
+        "visitDate": "2022-11-14 16:13:47",
+        "visitHash": null,
+        "username": "Demo",
+        "visitSaved": false,
+        "visitNotes": "This is a demo visit with fixture data",
+        "allDataLocal": true,
+        "saveFolder": "MicroElastic/VisitData/visit1",
+        "saveFilename": "visit1.visit",
+        "wipFolder": "MicroElastic/Work In Progress"
+    },
+    "protocol": {
+        "protocolId": "FACE",
+        "protocolName": "Face Assesment",
+        "examDef": {
+            "examDefId": "FACE_SHORT",
+            "examDefName": "Facial Assessment Short",
+            "modified": false,
+            "locationTemplate": {
+                "name": null,
+                "sampleTypes": {
+                    "BMODE": {
+                        "displayName": "T-Mode",
+                        "requiredNumber": 1,
+                        "paramId": "gamma_bmode"
+                    },
+                    "STL": {
+                        "displayName": "E-Mode",
+                        "requiredNumber": 3,
+                        "paramId": "gamma_stl_5p0_0p5_7p5"
+                    }
+                },
+                "notes": null,
+                "excluded": false,
+                "instructions": {
+                    "text": "",
+                    "illustration": []
+                },
+                "mapCoords": {}
+            },
+            "locations": {
+                "ids": [
+                    "UNDER_EYES_RIGHT",
+                    "CHEEK_RIGHT",
+                    "JAW_RIGHT",
+                    "UNDER_EYES_LEFT",
+                    "CHEEK_LEFT",
+                    "JAW_LEFT"
+                ],
+                "entities": {
+                    "UNDER_EYES_RIGHT": {
+                        "id": "UNDER_EYES_RIGHT",
+                        "name": "Under Eyes (R)",
+                        "sampleTypes": {
+                            "BMODE": {
+                                "displayName": "T-Mode",
+                                "requiredNumber": 1,
+                                "paramId": "gamma_bmode"
+                            },
+                            "STL": {
+                                "displayName": "E-Mode",
+                                "requiredNumber": 5,
+                                "paramId": "gamma_stl_5p0_0p5_7p5"
+                            }
+                        },
+                        "notes": null,
+                        "excluded": false,
+                        "instructions": {
+                            "text": "When acquiring a T-Mode sample, slowly drag the transducer wand along the skin in a swipe like motion for a distance of approximately two inches. T-Mode acquisition lasts five seconds. When acquiring subsequent E-Mode samples, hold the transducer steady on the skin. E-Mode acquisition lasts two seconds.",
+                            "illustration": [
+                                {
+                                    "image": "/static/media/undereyeRight.6e94c000fe5dcc7bb270.png",
+                                    "filename": "undereyeRight.png"
+                                }
+                            ]
+                        },
+                        "mapCoords": {
+                            "FACE_MAP": [
+                                42.5531914893617,
+                                47.100515463917525,
+                                42.269503546099294,
+                                49.93556701030928,
+                                41.91489361702128,
+                                52.126288659793815,
+                                39.787234042553195,
+                                53.15721649484536,
+                                36.241134751773046,
+                                53.47938144329897,
+                                32.836879432624116,
+                                53.73711340206186,
+                                29.21985815602837,
+                                53.47938144329897,
+                                26.595744680851062,
+                                52.19072164948454,
+                                25.74468085106383,
+                                50.06443298969072,
+                                25.81560283687943,
+                                46.84278350515464,
+                                28.72340425531915,
+                                47.615979381443296,
+                                32.4822695035461,
+                                48.06701030927835,
+                                36.38297872340426,
+                                48.26030927835052,
+                                39.858156028368796,
+                                47.74484536082474
+                            ]
+                        }
+                    },
+                    "CHEEK_RIGHT": {
+                        "id": "CHEEK_RIGHT",
+                        "name": "Cheek (R)",
+                        "sampleTypes": {
+                            "BMODE": {
+                                "displayName": "T-Mode",
+                                "requiredNumber": 1,
+                                "paramId": "gamma_bmode"
+                            },
+                            "STL": {
+                                "displayName": "E-Mode",
+                                "requiredNumber": 5,
+                                "paramId": "gamma_stl_5p0_0p5_7p5"
+                            }
+                        },
+                        "notes": null,
+                        "excluded": false,
+                        "instructions": {
+                            "text": "When acquiring a T-Mode sample, slowly drag the transducer wand along the skin in a swipe like motion for a distance of approximately two inches. T-Mode acquisition lasts five seconds. When acquiring subsequent E-Mode samples, hold the transducer steady on the skin. E-Mode acquisition lasts two seconds.",
+                            "illustration": [
+                                {
+                                    "image": "/static/media/cheekRight.75eef308de88d7f28274.png",
+                                    "filename": "cheekRight.png"
+                                }
+                            ]
+                        },
+                        "mapCoords": {
+                            "FACE_MAP": [
+                                37.801418439716315,
+                                59.40721649484536,
+                                37.801418439716315,
+                                71.06958762886597,
+                                28.581560283687942,
+                                69.52319587628865,
+                                21.70212765957447,
+                                67.59020618556701,
+                                19.50354609929078,
+                                54.70360824742268,
+                                29.00709219858156,
+                                57.79639175257732,
+                                33.333333333333336,
+                                58.76288659793814
+                            ]
+                        }
+                    },
+                    "JAW_RIGHT": {
+                        "id": "JAW_RIGHT",
+                        "name": "Jaw (R)",
+                        "sampleTypes": {
+                            "BMODE": {
+                                "displayName": "T-Mode",
+                                "requiredNumber": 1,
+                                "paramId": "gamma_bmode"
+                            },
+                            "STL": {
+                                "displayName": "E-Mode",
+                                "requiredNumber": 5,
+                                "paramId": "gamma_stl_5p0_0p5_7p5"
+                            }
+                        },
+                        "notes": null,
+                        "excluded": false,
+                        "instructions": {
+                            "text": "When acquiring a T-Mode sample, slowly drag the transducer wand along the skin in a swipe like motion for a distance of approximately two inches. T-Mode acquisition lasts five seconds. When acquiring subsequent E-Mode samples, hold the transducer steady on the skin. E-Mode acquisition lasts two seconds.",
+                            "illustration": [
+                                {
+                                    "image": "/static/media/jawRight.eb386fad90de6278ea24.png",
+                                    "filename": "jawRight.png"
+                                }
+                            ]
+                        },
+                        "mapCoords": {
+                            "FACE_MAP": [
+                                25.106382978723403,
+                                76.86855670103093,
+                                27.375886524822697,
+                                79.63917525773196,
+                                34.46808510638298,
+                                85.05154639175258,
+                                43.12056737588652,
+                                89.5618556701031,
+                                45.177304964539005,
+                                84.92268041237114,
+                                45.88652482269504,
+                                80.3479381443299,
+                                39.00709219858156,
+                                78.22164948453609,
+                                34.255319148936174,
+                                76.67525773195877,
+                                27.5177304964539,
+                                74.29123711340206
+                            ]
+                        }
+                    },
+                    "UNDER_EYES_LEFT": {
+                        "id": "UNDER_EYES_LEFT",
+                        "name": "Under Eyes (L)",
+                        "sampleTypes": {
+                            "BMODE": {
+                                "displayName": "T-Mode",
+                                "requiredNumber": 1,
+                                "paramId": "gamma_bmode"
+                            },
+                            "STL": {
+                                "displayName": "E-Mode",
+                                "requiredNumber": 5,
+                                "paramId": "gamma_stl_5p0_0p5_7p5"
+                            }
+                        },
+                        "notes": null,
+                        "excluded": false,
+                        "instructions": {
+                            "text": "When acquiring a T-Mode sample, slowly drag the transducer wand along the skin in a swipe like motion for a distance of approximately two inches. T-Mode acquisition lasts five seconds. When acquiring subsequent E-Mode samples, hold the transducer steady on the skin. E-Mode acquisition lasts two seconds.",
+                            "illustration": [
+                                {
+                                    "image": "/static/media/undereyeLeft.469e1159e0c2c46ed60b.png",
+                                    "filename": "undereyeLeft.png"
+                                }
+                            ]
+                        },
+                        "mapCoords": {
+                            "FACE_MAP": [
+                                57.163120567375884,
+                                47.100515463917525,
+                                57.4468085106383,
+                                49.93556701030928,
+                                57.801418439716315,
+                                52.126288659793815,
+                                59.9290780141844,
+                                53.15721649484536,
+                                63.47517730496454,
+                                53.47938144329897,
+                                66.87943262411348,
+                                53.73711340206186,
+                                70.49645390070921,
+                                53.47938144329897,
+                                73.12056737588652,
+                                52.19072164948454,
+                                73.97163120567376,
+                                50.06443298969072,
+                                73.90070921985816,
+                                46.84278350515464,
+                                70.99290780141844,
+                                47.615979381443296,
+                                67.23404255319149,
+                                48.06701030927835,
+                                63.333333333333336,
+                                48.26030927835052,
+                                59.858156028368796,
+                                47.74484536082474
+                            ]
+                        }
+                    },
+                    "CHEEK_LEFT": {
+                        "id": "CHEEK_LEFT",
+                        "name": "Cheek (L)",
+                        "sampleTypes": {
+                            "BMODE": {
+                                "displayName": "T-Mode",
+                                "requiredNumber": 1,
+                                "paramId": "gamma_bmode"
+                            },
+                            "STL": {
+                                "displayName": "E-Mode",
+                                "requiredNumber": 5,
+                                "paramId": "gamma_stl_5p0_0p5_7p5"
+                            }
+                        },
+                        "notes": null,
+                        "excluded": false,
+                        "instructions": {
+                            "text": "When acquiring a T-Mode sample, slowly drag the transducer wand along the skin in a swipe like motion for a distance of approximately two inches. T-Mode acquisition lasts five seconds. When acquiring subsequent E-Mode samples, hold the transducer steady on the skin. E-Mode acquisition lasts two seconds.",
+                            "illustration": [
+                                {
+                                    "image": "/static/media/cheekLeft.bcb94750b44bc4d872d0.png",
+                                    "filename": "cheekLeft.png"
+                                }
+                            ]
+                        },
+                        "mapCoords": {
+                            "FACE_MAP": [
+                                61.91489361702128,
+                                59.40721649484536,
+                                61.91489361702128,
+                                71.06958762886597,
+                                71.13475177304964,
+                                69.52319587628865,
+                                78.01418439716312,
+                                67.59020618556701,
+                                80.2127659574468,
+                                54.70360824742268,
+                                70.70921985815603,
+                                57.79639175257732,
+                                66.38297872340425,
+                                58.76288659793814
+                            ]
+                        }
+                    },
+                    "JAW_LEFT": {
+                        "id": "JAW_LEFT",
+                        "name": "Jaw (L)",
+                        "sampleTypes": {
+                            "BMODE": {
+                                "displayName": "T-Mode",
+                                "requiredNumber": 1,
+                                "paramId": "gamma_bmode"
+                            },
+                            "STL": {
+                                "displayName": "E-Mode",
+                                "requiredNumber": 5,
+                                "paramId": "gamma_stl_5p0_0p5_7p5"
+                            }
+                        },
+                        "notes": null,
+                        "excluded": false,
+                        "instructions": {
+                            "text": "When acquiring a T-Mode sample, slowly drag the transducer wand along the skin in a swipe like motion for a distance of approximately two inches. T-Mode acquisition lasts five seconds. When acquiring subsequent E-Mode samples, hold the transducer steady on the skin. E-Mode acquisition lasts two seconds.",
+                            "illustration": [
+                                {
+                                    "image": "/static/media/jawLeft.e43abccddf3d2090d9e7.png",
+                                    "filename": "jawLeft.png"
+                                }
+                            ]
+                        },
+                        "mapCoords": {
+                            "FACE_MAP": [
+                                74.60992907801419,
+                                76.86855670103093,
+                                72.34042553191489,
+                                79.63917525773196,
+                                65.2482269503546,
+                                85.05154639175258,
+                                56.59574468085106,
+                                89.5618556701031,
+                                54.53900709219858,
+                                84.92268041237114,
+                                53.829787234042556,
+                                80.3479381443299,
+                                60.709219858156025,
+                                78.22164948453609,
+                                65.46099290780141,
+                                76.67525773195877,
+                                72.19858156028369,
+                                74.29123711340206
+                            ]
+                        }
+                    }
+                }
+            },
+            "maps": {
+                "FACE_MAP": {
+                    "name": "Face Map",
+                    "image": "/static/media/generic_face.6f433a44c9bd558a9673.png",
+                    "filename": "generic_face.png"
+                }
+            }
+        },
+        "formDef": {
+            "ids": [
+                "SKIN_CONDITION"
+            ],
+            "entities": {
+                "SKIN_CONDITION": {
+                    "frequency": "PER_VISIT",
+                    "id": "SKIN_CONDITION",
+                    "name": "Skincare Information",
+                    "form": {
+                        "0": {
+                            "Variable / Field Name": "skin_type",
+                            "Form Name": "Skin Condition",
+                            "Section Header": "",
+                            "Field Type": "dropdown",
+                            "Field Label": "Patient\"s Skin Type",
+                            "Choices, Calculations, OR Slider Labels": "I|II|III|IV|V",
+                            "Field Note": "Fitzpatrick skin type",
+                            "Text Validation Type OR Show Slider Number": "",
+                            "Text Validation Min": "",
+                            "Text Validation Max,Identifier?": "",
+                            "Branching Logic (Show field only if...)": "",
+                            "Required Field?": "y",
+                            "Custom Alignment": "",
+                            "Question Number (surveys only)": "",
+                            "Matrix Group Name": ""
+                        },
+                        "1": {
+                            "Variable / Field Name": "skin_care",
+                            "Form Name": "Skin Condition",
+                            "Section Header": "",
+                            "Field Type": "checkboxes",
+                            "Field Label": "Skincare products that the patient uses?",
+                            "Choices, Calculations, OR Slider Labels": "Sunscreen|Moisturizer|Clenser or Toner|Acne Treatment",
+                            "Field Note": "Select all that apply",
+                            "Text Validation Type OR Show Slider Number": "",
+                            "Text Validation Min": "",
+                            "Text Validation Max,Identifier?": "",
+                            "Branching Logic (Show field only if...)": "",
+                            "Required Field?": "n",
+                            "Custom Alignment": "",
+                            "Question Number (surveys only)": "",
+                            "Matrix Group Name": ""
+                        },
+                        "2": {
+                            "Variable / Field Name": "sun_damage",
+                            "Form Name": "Skin Condition",
+                            "Section Header": "",
+                            "Field Type": "yesno",
+                            "Field Label": "Does the patient have any visible sun damage to their skin on their face or neck?",
+                            "Choices, Calculations, OR Slider Labels": "",
+                            "Field Note": "",
+                            "Text Validation Type OR Show Slider Number": "",
+                            "Text Validation Min": "",
+                            "Text Validation Max,Identifier?": "",
+                            "Branching Logic (Show field only if...)": "",
+                            "Required Field?": "y",
+                            "Custom Alignment": "",
+                            "Question Number (surveys only)": "",
+                            "Matrix Group Name": ""
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "locations": {
+        "ids": [
+            "UNDER_EYES_RIGHT",
+            "CHEEK_RIGHT",
+            "JAW_RIGHT",
+            "UNDER_EYES_LEFT",
+            "CHEEK_LEFT",
+            "JAW_LEFT"
+        ],
+        "entities": {
+            "UNDER_EYES_RIGHT": {
+                "id": "UNDER_EYES_RIGHT",
+                "samplesAcquiredBySampleType": {
+                    "BMODE": 1,
+                    "STL": 5
+                },
+                "samplesExcludedBySampleType": {
+                    "BMODE": 0,
+                    "STL": 0
+                },
+                "alertSample": {
+                    "status": false,
+                    "ids": [],
+                    "anyIncludedInVisit": false
+                },
+                "shearwaveSpeed": {
+                    "value": 3.2400000000000007,
+                    "standardDev": 12.960000000000003
+                },
+                "thickness": {
+                    "value": 1.31,
+                    "standardDev": 0
+                },
+                "thicknessRefSampleId": null,
+                "sampleIds": [
+                    "e46jRMFzbm2KJDn2mPpcO",
+                    "IGJtS7plmvZ1JFVuZ8WU5",
+                    "s-DdlcZPbMhqh2JGKthvB",
+                    "rxYUEoBd-dUja3FAngj3n",
+                    "bA0o-EQs4hOCS1SEno6wx",
+                    "USytCLxuVAMJeHkDZWC6K"
+                ]
+            },
+            "CHEEK_RIGHT": {
+                "id": "CHEEK_RIGHT",
+                "samplesAcquiredBySampleType": {
+                    "BMODE": 1,
+                    "STL": 5
+                },
+                "samplesExcludedBySampleType": {
+                    "BMODE": 0,
+                    "STL": 0
+                },
+                "alertSample": {
+                    "status": false,
+                    "ids": [],
+                    "anyIncludedInVisit": false
+                },
+                "shearwaveSpeed": {
+                    "value": 3.2400000000000007,
+                    "standardDev": 12.960000000000003
+                },
+                "thickness": {
+                    "value": 1.31,
+                    "standardDev": 0
+                },
+                "thicknessRefSampleId": null,
+                "sampleIds": [
+                    "hg7FcL6_R_GHxLJnWBeAs",
+                    "v7czbrrpqtzV40-cfrwyC",
+                    "YFgRp-xKRmXED9sgc0XnO",
+                    "FuNA3tNS4RElN8umzIu08",
+                    "gdcpJeIHq7PI-yuP1CBHc",
+                    "ztOR0hA-j61nv4XGnPMvo"
+                ]
+            },
+            "JAW_RIGHT": {
+                "id": "JAW_RIGHT",
+                "samplesAcquiredBySampleType": {
+                    "BMODE": 1,
+                    "STL": 5
+                },
+                "samplesExcludedBySampleType": {
+                    "BMODE": 0,
+                    "STL": 0
+                },
+                "alertSample": {
+                    "status": false,
+                    "ids": [],
+                    "anyIncludedInVisit": false
+                },
+                "shearwaveSpeed": {
+                    "value": 3.2400000000000007,
+                    "standardDev": 12.960000000000003
+                },
+                "thickness": {
+                    "value": 1.31,
+                    "standardDev": 0
+                },
+                "thicknessRefSampleId": null,
+                "sampleIds": [
+                    "8TDrXMU8t7ecVe5GhLm9n",
+                    "fCyHAu-eIGcbdbF7-I6bC",
+                    "0_E7ZJ14rel3tDBBCYXsf",
+                    "w2NpruDadhwsFpZP9qnlU",
+                    "LYqSbzGOpmO3-oc8J7u8z",
+                    "_b31_emIw5caSJ1s1xhi8"
+                ]
+            },
+            "UNDER_EYES_LEFT": {
+                "id": "UNDER_EYES_LEFT",
+                "samplesAcquiredBySampleType": {
+                    "BMODE": 1,
+                    "STL": 5
+                },
+                "samplesExcludedBySampleType": {
+                    "BMODE": 0,
+                    "STL": 0
+                },
+                "alertSample": {
+                    "status": false,
+                    "ids": [],
+                    "anyIncludedInVisit": false
+                },
+                "shearwaveSpeed": {
+                    "value": 3.2400000000000007,
+                    "standardDev": 12.960000000000003
+                },
+                "thickness": {
+                    "value": 1.31,
+                    "standardDev": 0
+                },
+                "thicknessRefSampleId": null,
+                "sampleIds": [
+                    "XoOvFP_d2qlSUs4NbrDj6",
+                    "FIFsIXjnYYYCyW1gcG1UZ",
+                    "2WeBLbkTSkkzFR5LEgIi8",
+                    "3qgXhJtJ2NE9PbzENGgh9",
+                    "Ew4Oyl_aDoCxF53PAb5wM",
+                    "ANgWwFYH00px3UMhK815L"
+                ]
+            },
+            "CHEEK_LEFT": {
+                "id": "CHEEK_LEFT",
+                "samplesAcquiredBySampleType": {
+                    "BMODE": 1,
+                    "STL": 5
+                },
+                "samplesExcludedBySampleType": {
+                    "BMODE": 0,
+                    "STL": 0
+                },
+                "alertSample": {
+                    "status": false,
+                    "ids": [],
+                    "anyIncludedInVisit": false
+                },
+                "shearwaveSpeed": {
+                    "value": 3.2400000000000007,
+                    "standardDev": 12.960000000000003
+                },
+                "thickness": {
+                    "value": 1.31,
+                    "standardDev": 0
+                },
+                "thicknessRefSampleId": null,
+                "sampleIds": [
+                    "RkUiDqYFFVkcvrPgyMOr5",
+                    "-CQxLyVGVN8Zv5g-n3MXb",
+                    "lxFsFJ4ruhgLibQINY5Ds",
+                    "cWow1ewD1mGxDtgLVaFr6",
+                    "rs1OVRrwqk1tnNXuHR72e",
+                    "pIsAlgTU7ZK618BxNWGJp"
+                ]
+            },
+            "JAW_LEFT": {
+                "id": "JAW_LEFT",
+                "samplesAcquiredBySampleType": {
+                    "BMODE": 1,
+                    "STL": 5
+                },
+                "samplesExcludedBySampleType": {
+                    "BMODE": 0,
+                    "STL": 0
+                },
+                "alertSample": {
+                    "status": false,
+                    "ids": [],
+                    "anyIncludedInVisit": false
+                },
+                "shearwaveSpeed": {
+                    "value": 3.2400000000000007,
+                    "standardDev": 12.960000000000003
+                },
+                "thickness": {
+                    "value": 1.31,
+                    "standardDev": 0
+                },
+                "thicknessRefSampleId": null,
+                "sampleIds": [
+                    "ows1NY5AzqtolE7dqQeGO",
+                    "oGOqOMAyppKMGPxdeYHtj",
+                    "Oh5oGFoWjcqRf5ZWJVdyQ",
+                    "vB_B48ljUtrPXp5bvKiLm",
+                    "C6BWWQMEzZwIaCDNxQT6_",
+                    "2BG6wUkeGb1lUk4dOKm9B"
+                ]
+            }
+        }
+    },
+    "samples": {
+        "ids": [
+            "e46jRMFzbm2KJDn2mPpcO",
+            "IGJtS7plmvZ1JFVuZ8WU5",
+            "s-DdlcZPbMhqh2JGKthvB",
+            "rxYUEoBd-dUja3FAngj3n",
+            "bA0o-EQs4hOCS1SEno6wx",
+            "USytCLxuVAMJeHkDZWC6K",
+            "hg7FcL6_R_GHxLJnWBeAs",
+            "v7czbrrpqtzV40-cfrwyC",
+            "YFgRp-xKRmXED9sgc0XnO",
+            "FuNA3tNS4RElN8umzIu08",
+            "gdcpJeIHq7PI-yuP1CBHc",
+            "ztOR0hA-j61nv4XGnPMvo",
+            "8TDrXMU8t7ecVe5GhLm9n",
+            "fCyHAu-eIGcbdbF7-I6bC",
+            "0_E7ZJ14rel3tDBBCYXsf",
+            "w2NpruDadhwsFpZP9qnlU",
+            "LYqSbzGOpmO3-oc8J7u8z",
+            "_b31_emIw5caSJ1s1xhi8",
+            "XoOvFP_d2qlSUs4NbrDj6",
+            "FIFsIXjnYYYCyW1gcG1UZ",
+            "2WeBLbkTSkkzFR5LEgIi8",
+            "3qgXhJtJ2NE9PbzENGgh9",
+            "Ew4Oyl_aDoCxF53PAb5wM",
+            "ANgWwFYH00px3UMhK815L",
+            "RkUiDqYFFVkcvrPgyMOr5",
+            "-CQxLyVGVN8Zv5g-n3MXb",
+            "lxFsFJ4ruhgLibQINY5Ds",
+            "cWow1ewD1mGxDtgLVaFr6",
+            "rs1OVRrwqk1tnNXuHR72e",
+            "pIsAlgTU7ZK618BxNWGJp",
+            "ows1NY5AzqtolE7dqQeGO",
+            "oGOqOMAyppKMGPxdeYHtj",
+            "Oh5oGFoWjcqRf5ZWJVdyQ",
+            "vB_B48ljUtrPXp5bvKiLm",
+            "C6BWWQMEzZwIaCDNxQT6_",
+            "2BG6wUkeGb1lUk4dOKm9B"
+        ],
+        "entities": {
+            "e46jRMFzbm2KJDn2mPpcO": {
+                "id": "e46jRMFzbm2KJDn2mPpcO",
+                "sampleType": "BMODE",
+                "processing": false,
+                "valueDisplay": true,
+                "selectable": true,
+                "dataSaved": true,
+                "locationId": "UNDER_EYES_RIGHT",
+                "alert": {
+                    "status": false,
+                    "message": ""
+                },
+                "excluded": false,
+                "notes": null,
+                "plot": {
+                    "image": "/static/media/bmode_-40_0.4a6bdb083d93803c8ef1.jpg",
+                    "xAxis": {
+                        "range": [
+                            0,
+                            4.99
+                        ],
+                        "label": "T",
+                        "unit": "s"
+                    },
+                    "yAxis": {
+                        "range": [
+                            -1,
+                            5
+                        ],
+                        "label": "Depth",
+                        "unit": "mm"
+                    },
+                    "colorBar": {
+                        "range": [
+                            -40,
+                            0
+                        ],
+                        "label": "Amplitude",
+                        "unit": "dB"
+                    }
+                },
+                "thickness": 1.31,
+                "autoDetectedTopSurface": 0,
+                "autoDetectedThickness": 1.31,
+                "autoDetectedBottomSurface": 1.31,
+                "topSurface": 0,
+                "bottomSurface": 1.31,
+                "setToAutoDetectedThickness": true
+            },
+            "IGJtS7plmvZ1JFVuZ8WU5": {
+                "id": "IGJtS7plmvZ1JFVuZ8WU5",
+                "sampleType": "STL",
+                "processing": false,
+                "valueDisplay": true,
+                "selectable": true,
+                "dataSaved": true,
+                "locationId": "UNDER_EYES_RIGHT",
+                "alert": {
+                    "status": false,
+                    "message": ""
+                },
+                "excluded": false,
+                "notes": null,
+                "plot": {
+                    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAZABkAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCADPAAYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5/ooooAKKKKACirJspg23bRTsyeZdz0Z9DUTfd7UV0khXfniivUVOJ859YmU2lJopoX5RRTVyLItGPCiilLgoD70VaM3e5WRt0Y+tFV4ZhsorPmOr2epSh3klR6ZorWj0w7unaiseWR2pwOlRYwu7j0ormZtaEdtnd/Hj9KK0c9TNU3bU4u6umaMru43A/pRUTwkJ83tRXEmz0ZRitzVMSMmeo/8A10UlnOAGBwQMDmipb5dC+Xm1M8SBC5U9wKKzzcDyyfVzRWZqZDTsFAz/ABMf1op725LjHPH9aKLAf //Z",
+                    "xAxis": {
+                        "range": [
+                            5,
+                            7.5
+                        ],
+                        "label": "rfoc",
+                        "unit": "mm"
+                    },
+                    "yAxis": {
+                        "range": [
+                            -2,
+                            5.93
+                        ],
+                        "label": "Depth",
+                        "unit": "mm"
+                    },
+                    "colorBar": {
+                        "xAxis": {
+                            "range": [
+                                -45,
+                                0
+                            ],
+                            "label": "Amplitude",
+                            "unit": "dB"
+                        },
+                        "yAxis": {
+                            "range": [
+                                0,
+                                12
+                            ],
+                            "label": "SWS",
+                            "unit": "m/s"
+                        }
+                    }
+                },
+                "shearwaveSpeed": 3.24,
+                "percentSliceWidth": 50,
+                "dz": 1.31,
+                "z": 0.66
+            },
+            "s-DdlcZPbMhqh2JGKthvB": {
+                "id": "s-DdlcZPbMhqh2JGKthvB",
+                "sampleType": "STL",
+                "processing": false,
+                "valueDisplay": true,
+                "selectable": true,
+                "dataSaved": true,
+                "locationId": "UNDER_EYES_RIGHT",
+                "alert": {
+                    "status": false,
+                    "message": ""
+                },
+                "excluded": false,
+                "notes": null,
+                "plot": {
+                    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAZABkAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCADPAAYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5/ooooAKKKKACirJspg23bRTsyeZdz0Z9DUTfd7UV0khXfniivUVOJ859YmU2lJopoX5RRTVyLItGPCiilLgoD70VaM3e5WRt0Y+tFV4ZhsorPmOr2epSh3klR6ZorWj0w7unaiseWR2pwOlRYwu7j0ormZtaEdtnd/Hj9KK0c9TNU3bU4u6umaMru43A/pRUTwkJ83tRXEmz0ZRitzVMSMmeo/8A10UlnOAGBwQMDmipb5dC+Xm1M8SBC5U9wKKzzcDyyfVzRWZqZDTsFAz/ABMf1op725LjHPH9aKLAf //Z",
+                    "xAxis": {
+                        "range": [
+                            5,
+                            7.5
+                        ],
+                        "label": "rfoc",
+                        "unit": "mm"
+                    },
+                    "yAxis": {
+                        "range": [
+                            -2,
+                            5.93
+                        ],
+                        "label": "Depth",
+                        "unit": "mm"
+                    },
+                    "colorBar": {
+                        "xAxis": {
+                            "range": [
+                                -45,
+                                0
+                            ],
+                            "label": "Amplitude",
+                            "unit": "dB"
+                        },
+                        "yAxis": {
+                            "range": [
+                                0,
+                                12
+                            ],
+                            "label": "SWS",
+                            "unit": "m/s"
+                        }
+                    }
+                },
+                "shearwaveSpeed": 3.24,
+                "percentSliceWidth": 50,
+                "dz": 1.31,
+                "z": 0.66
+            },
+            "rxYUEoBd-dUja3FAngj3n": {
+                "id": "rxYUEoBd-dUja3FAngj3n",
+                "sampleType": "STL",
+                "processing": false,
+                "valueDisplay": true,
+                "selectable": true,
+                "dataSaved": true,
+                "locationId": "UNDER_EYES_RIGHT",
+                "alert": {
+                    "status": false,
+                    "message": ""
+                },
+                "excluded": false,
+                "notes": null,
+                "plot": {
+                    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAZABkAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCADPAAYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5/ooooAKKKKACirJspg23bRTsyeZdz0Z9DUTfd7UV0khXfniivUVOJ859YmU2lJopoX5RRTVyLItGPCiilLgoD70VaM3e5WRt0Y+tFV4ZhsorPmOr2epSh3klR6ZorWj0w7unaiseWR2pwOlRYwu7j0ormZtaEdtnd/Hj9KK0c9TNU3bU4u6umaMru43A/pRUTwkJ83tRXEmz0ZRitzVMSMmeo/8A10UlnOAGBwQMDmipb5dC+Xm1M8SBC5U9wKKzzcDyyfVzRWZqZDTsFAz/ABMf1op725LjHPH9aKLAf //Z",
+                    "xAxis": {
+                        "range": [
+                            5,
+                            7.5
+                        ],
+                        "label": "rfoc",
+                        "unit": "mm"
+                    },
+                    "yAxis": {
+                        "range": [
+                            -2,
+                            5.93
+                        ],
+                        "label": "Depth",
+                        "unit": "mm"
+                    },
+                    "colorBar": {
+                        "xAxis": {
+                            "range": [
+                                -45,
+                                0
+                            ],
+                            "label": "Amplitude",
+                            "unit": "dB"
+                        },
+                        "yAxis": {
+                            "range": [
+                                0,
+                                12
+                            ],
+                            "label": "SWS",
+                            "unit": "m/s"
+                        }
+                    }
+                },
+                "shearwaveSpeed": 3.24,
+                "percentSliceWidth": 50,
+                "dz": 1.31,
+                "z": 0.66
+            },
+            "bA0o-EQs4hOCS1SEno6wx": {
+                "id": "bA0o-EQs4hOCS1SEno6wx",
+                "sampleType": "STL",
+                "processing": false,
+                "valueDisplay": true,
+                "selectable": true,
+                "dataSaved": true,
+                "locationId": "UNDER_EYES_RIGHT",
+                "alert": {
+                    "status": false,
+                    "message": ""
+                },
+                "excluded": false,
+                "notes": null,
+                "plot": {
+                    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAZABkAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCADPAAYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5/ooooAKKKKACirJspg23bRTsyeZdz0Z9DUTfd7UV0khXfniivUVOJ859YmU2lJopoX5RRTVyLItGPCiilLgoD70VaM3e5WRt0Y+tFV4ZhsorPmOr2epSh3klR6ZorWj0w7unaiseWR2pwOlRYwu7j0ormZtaEdtnd/Hj9KK0c9TNU3bU4u6umaMru43A/pRUTwkJ83tRXEmz0ZRitzVMSMmeo/8A10UlnOAGBwQMDmipb5dC+Xm1M8SBC5U9wKKzzcDyyfVzRWZqZDTsFAz/ABMf1op725LjHPH9aKLAf //Z",
+                    "xAxis": {
+                        "range": [
+                            5,
+                            7.5
+                        ],
+                        "label": "rfoc",
+                        "unit": "mm"
+                    },
+                    "yAxis": {
+                        "range": [
+                            -2,
+                            5.93
+                        ],
+                        "label": "Depth",
+                        "unit": "mm"
+                    },
+                    "colorBar": {
+                        "xAxis": {
+                            "range": [
+                                -45,
+                                0
+                            ],
+                            "label": "Amplitude",
+                            "unit": "dB"
+                        },
+                        "yAxis": {
+                            "range": [
+                                0,
+                                12
+                            ],
+                            "label": "SWS",
+                            "unit": "m/s"
+                        }
+                    }
+                },
+                "shearwaveSpeed": 3.24,
+                "percentSliceWidth": 50,
+                "dz": 1.31,
+                "z": 0.66
+            },
+            "USytCLxuVAMJeHkDZWC6K": {
+                "id": "USytCLxuVAMJeHkDZWC6K",
+                "sampleType": "STL",
+                "processing": false,
+                "valueDisplay": true,
+                "selectable": true,
+                "dataSaved": true,
+                "locationId": "UNDER_EYES_RIGHT",
+                "alert": {
+                    "status": false,
+                    "message": ""
+                },
+                "excluded": false,
+                "notes": null,
+                "plot": {
+                    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAZABkAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCADPAAYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5/ooooAKKKKACirJspg23bRTsyeZdz0Z9DUTfd7UV0khXfniivUVOJ859YmU2lJopoX5RRTVyLItGPCiilLgoD70VaM3e5WRt0Y+tFV4ZhsorPmOr2epSh3klR6ZorWj0w7unaiseWR2pwOlRYwu7j0ormZtaEdtnd/Hj9KK0c9TNU3bU4u6umaMru43A/pRUTwkJ83tRXEmz0ZRitzVMSMmeo/8A10UlnOAGBwQMDmipb5dC+Xm1M8SBC5U9wKKzzcDyyfVzRWZqZDTsFAz/ABMf1op725LjHPH9aKLAf //Z",
+                    "xAxis": {
+                        "range": [
+                            5,
+                            7.5
+                        ],
+                        "label": "rfoc",
+                        "unit": "mm"
+                    },
+                    "yAxis": {
+                        "range": [
+                            -2,
+                            5.93
+                        ],
+                        "label": "Depth",
+                        "unit": "mm"
+                    },
+                    "colorBar": {
+                        "xAxis": {
+                            "range": [
+                                -45,
+                                0
+                            ],
+                            "label": "Amplitude",
+                            "unit": "dB"
+                        },
+                        "yAxis": {
+                            "range": [
+                                0,
+                                12
+                            ],
+                            "label": "SWS",
+                            "unit": "m/s"
+                        }
+                    }
+                },
+                "shearwaveSpeed": 3.24,
+                "percentSliceWidth": 50,
+                "dz": 1.31,
+                "z": 0.66
+            },
+            "hg7FcL6_R_GHxLJnWBeAs": {
+                "id": "hg7FcL6_R_GHxLJnWBeAs",
+                "sampleType": "BMODE",
+                "processing": false,
+                "valueDisplay": true,
+                "selectable": true,
+                "dataSaved": true,
+                "locationId": "CHEEK_RIGHT",
+                "alert": {
+                    "status": false,
+                    "message": ""
+                },
+                "excluded": false,
+                "notes": null,
+                "plot": {
+                    "image": "/static/media/bmode_-40_0.4a6bdb083d93803c8ef1.jpg",
+                    "xAxis": {
+                        "range": [
+                            0,
+                            4.99
+                        ],
+                        "label": "T",
+                        "unit": "s"
+                    },
+                    "yAxis": {
+                        "range": [
+                            -1,
+                            5
+                        ],
+                        "label": "Depth",
+                        "unit": "mm"
+                    },
+                    "colorBar": {
+                        "range": [
+                            -40,
+                            0
+                        ],
+                        "label": "Amplitude",
+                        "unit": "dB"
+                    }
+                },
+                "thickness": 1.31,
+                "autoDetectedTopSurface": 0,
+                "autoDetectedThickness": 1.31,
+                "autoDetectedBottomSurface": 1.31,
+                "topSurface": 0,
+                "bottomSurface": 1.31,
+                "setToAutoDetectedThickness": true
+            },
+            "v7czbrrpqtzV40-cfrwyC": {
+                "id": "v7czbrrpqtzV40-cfrwyC",
+                "sampleType": "STL",
+                "processing": false,
+                "valueDisplay": true,
+                "selectable": true,
+                "dataSaved": true,
+                "locationId": "CHEEK_RIGHT",
+                "alert": {
+                    "status": false,
+                    "message": ""
+                },
+                "excluded": false,
+                "notes": null,
+                "plot": {
+                    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAZABkAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCADPAAYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5/ooooAKKKKACirJspg23bRTsyeZdz0Z9DUTfd7UV0khXfniivUVOJ859YmU2lJopoX5RRTVyLItGPCiilLgoD70VaM3e5WRt0Y+tFV4ZhsorPmOr2epSh3klR6ZorWj0w7unaiseWR2pwOlRYwu7j0ormZtaEdtnd/Hj9KK0c9TNU3bU4u6umaMru43A/pRUTwkJ83tRXEmz0ZRitzVMSMmeo/8A10UlnOAGBwQMDmipb5dC+Xm1M8SBC5U9wKKzzcDyyfVzRWZqZDTsFAz/ABMf1op725LjHPH9aKLAf //Z",
+                    "xAxis": {
+                        "range": [
+                            5,
+                            7.5
+                        ],
+                        "label": "rfoc",
+                        "unit": "mm"
+                    },
+                    "yAxis": {
+                        "range": [
+                            -2,
+                            5.93
+                        ],
+                        "label": "Depth",
+                        "unit": "mm"
+                    },
+                    "colorBar": {
+                        "xAxis": {
+                            "range": [
+                                -45,
+                                0
+                            ],
+                            "label": "Amplitude",
+                            "unit": "dB"
+                        },
+                        "yAxis": {
+                            "range": [
+                                0,
+                                12
+                            ],
+                            "label": "SWS",
+                            "unit": "m/s"
+                        }
+                    }
+                },
+                "shearwaveSpeed": 3.24,
+                "percentSliceWidth": 50,
+                "dz": 1.31,
+                "z": 0.66
+            },
+            "YFgRp-xKRmXED9sgc0XnO": {
+                "id": "YFgRp-xKRmXED9sgc0XnO",
+                "sampleType": "STL",
+                "processing": false,
+                "valueDisplay": true,
+                "selectable": true,
+                "dataSaved": true,
+                "locationId": "CHEEK_RIGHT",
+                "alert": {
+                    "status": false,
+                    "message": ""
+                },
+                "excluded": false,
+                "notes": null,
+                "plot": {
+                    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAZABkAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCADPAAYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5/ooooAKKKKACirJspg23bRTsyeZdz0Z9DUTfd7UV0khXfniivUVOJ859YmU2lJopoX5RRTVyLItGPCiilLgoD70VaM3e5WRt0Y+tFV4ZhsorPmOr2epSh3klR6ZorWj0w7unaiseWR2pwOlRYwu7j0ormZtaEdtnd/Hj9KK0c9TNU3bU4u6umaMru43A/pRUTwkJ83tRXEmz0ZRitzVMSMmeo/8A10UlnOAGBwQMDmipb5dC+Xm1M8SBC5U9wKKzzcDyyfVzRWZqZDTsFAz/ABMf1op725LjHPH9aKLAf //Z",
+                    "xAxis": {
+                        "range": [
+                            5,
+                            7.5
+                        ],
+                        "label": "rfoc",
+                        "unit": "mm"
+                    },
+                    "yAxis": {
+                        "range": [
+                            -2,
+                            5.93
+                        ],
+                        "label": "Depth",
+                        "unit": "mm"
+                    },
+                    "colorBar": {
+                        "xAxis": {
+                            "range": [
+                                -45,
+                                0
+                            ],
+                            "label": "Amplitude",
+                            "unit": "dB"
+                        },
+                        "yAxis": {
+                            "range": [
+                                0,
+                                12
+                            ],
+                            "label": "SWS",
+                            "unit": "m/s"
+                        }
+                    }
+                },
+                "shearwaveSpeed": 3.24,
+                "percentSliceWidth": 50,
+                "dz": 1.31,
+                "z": 0.66
+            },
+            "FuNA3tNS4RElN8umzIu08": {
+                "id": "FuNA3tNS4RElN8umzIu08",
+                "sampleType": "STL",
+                "processing": false,
+                "valueDisplay": true,
+                "selectable": true,
+                "dataSaved": true,
+                "locationId": "CHEEK_RIGHT",
+                "alert": {
+                    "status": false,
+                    "message": ""
+                },
+                "excluded": false,
+                "notes": null,
+                "plot": {
+                    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAZABkAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCADPAAYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5/ooooAKKKKACirJspg23bRTsyeZdz0Z9DUTfd7UV0khXfniivUVOJ859YmU2lJopoX5RRTVyLItGPCiilLgoD70VaM3e5WRt0Y+tFV4ZhsorPmOr2epSh3klR6ZorWj0w7unaiseWR2pwOlRYwu7j0ormZtaEdtnd/Hj9KK0c9TNU3bU4u6umaMru43A/pRUTwkJ83tRXEmz0ZRitzVMSMmeo/8A10UlnOAGBwQMDmipb5dC+Xm1M8SBC5U9wKKzzcDyyfVzRWZqZDTsFAz/ABMf1op725LjHPH9aKLAf //Z",
+                    "xAxis": {
+                        "range": [
+                            5,
+                            7.5
+                        ],
+                        "label": "rfoc",
+                        "unit": "mm"
+                    },
+                    "yAxis": {
+                        "range": [
+                            -2,
+                            5.93
+                        ],
+                        "label": "Depth",
+                        "unit": "mm"
+                    },
+                    "colorBar": {
+                        "xAxis": {
+                            "range": [
+                                -45,
+                                0
+                            ],
+                            "label": "Amplitude",
+                            "unit": "dB"
+                        },
+                        "yAxis": {
+                            "range": [
+                                0,
+                                12
+                            ],
+                            "label": "SWS",
+                            "unit": "m/s"
+                        }
+                    }
+                },
+                "shearwaveSpeed": 3.24,
+                "percentSliceWidth": 50,
+                "dz": 1.31,
+                "z": 0.66
+            },
+            "gdcpJeIHq7PI-yuP1CBHc": {
+                "id": "gdcpJeIHq7PI-yuP1CBHc",
+                "sampleType": "STL",
+                "processing": false,
+                "valueDisplay": true,
+                "selectable": true,
+                "dataSaved": true,
+                "locationId": "CHEEK_RIGHT",
+                "alert": {
+                    "status": false,
+                    "message": ""
+                },
+                "excluded": false,
+                "notes": null,
+                "plot": {
+                    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAZABkAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCADPAAYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5/ooooAKKKKACirJspg23bRTsyeZdz0Z9DUTfd7UV0khXfniivUVOJ859YmU2lJopoX5RRTVyLItGPCiilLgoD70VaM3e5WRt0Y+tFV4ZhsorPmOr2epSh3klR6ZorWj0w7unaiseWR2pwOlRYwu7j0ormZtaEdtnd/Hj9KK0c9TNU3bU4u6umaMru43A/pRUTwkJ83tRXEmz0ZRitzVMSMmeo/8A10UlnOAGBwQMDmipb5dC+Xm1M8SBC5U9wKKzzcDyyfVzRWZqZDTsFAz/ABMf1op725LjHPH9aKLAf //Z",
+                    "xAxis": {
+                        "range": [
+                            5,
+                            7.5
+                        ],
+                        "label": "rfoc",
+                        "unit": "mm"
+                    },
+                    "yAxis": {
+                        "range": [
+                            -2,
+                            5.93
+                        ],
+                        "label": "Depth",
+                        "unit": "mm"
+                    },
+                    "colorBar": {
+                        "xAxis": {
+                            "range": [
+                                -45,
+                                0
+                            ],
+                            "label": "Amplitude",
+                            "unit": "dB"
+                        },
+                        "yAxis": {
+                            "range": [
+                                0,
+                                12
+                            ],
+                            "label": "SWS",
+                            "unit": "m/s"
+                        }
+                    }
+                },
+                "shearwaveSpeed": 3.24,
+                "percentSliceWidth": 50,
+                "dz": 1.31,
+                "z": 0.66
+            },
+            "ztOR0hA-j61nv4XGnPMvo": {
+                "id": "ztOR0hA-j61nv4XGnPMvo",
+                "sampleType": "STL",
+                "processing": false,
+                "valueDisplay": true,
+                "selectable": true,
+                "dataSaved": true,
+                "locationId": "CHEEK_RIGHT",
+                "alert": {
+                    "status": false,
+                    "message": ""
+                },
+                "excluded": false,
+                "notes": null,
+                "plot": {
+                    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAZABkAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCADPAAYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5/ooooAKKKKACirJspg23bRTsyeZdz0Z9DUTfd7UV0khXfniivUVOJ859YmU2lJopoX5RRTVyLItGPCiilLgoD70VaM3e5WRt0Y+tFV4ZhsorPmOr2epSh3klR6ZorWj0w7unaiseWR2pwOlRYwu7j0ormZtaEdtnd/Hj9KK0c9TNU3bU4u6umaMru43A/pRUTwkJ83tRXEmz0ZRitzVMSMmeo/8A10UlnOAGBwQMDmipb5dC+Xm1M8SBC5U9wKKzzcDyyfVzRWZqZDTsFAz/ABMf1op725LjHPH9aKLAf //Z",
+                    "xAxis": {
+                        "range": [
+                            5,
+                            7.5
+                        ],
+                        "label": "rfoc",
+                        "unit": "mm"
+                    },
+                    "yAxis": {
+                        "range": [
+                            -2,
+                            5.93
+                        ],
+                        "label": "Depth",
+                        "unit": "mm"
+                    },
+                    "colorBar": {
+                        "xAxis": {
+                            "range": [
+                                -45,
+                                0
+                            ],
+                            "label": "Amplitude",
+                            "unit": "dB"
+                        },
+                        "yAxis": {
+                            "range": [
+                                0,
+                                12
+                            ],
+                            "label": "SWS",
+                            "unit": "m/s"
+                        }
+                    }
+                },
+                "shearwaveSpeed": 3.24,
+                "percentSliceWidth": 50,
+                "dz": 1.31,
+                "z": 0.66
+            },
+            "8TDrXMU8t7ecVe5GhLm9n": {
+                "id": "8TDrXMU8t7ecVe5GhLm9n",
+                "sampleType": "BMODE",
+                "processing": false,
+                "valueDisplay": true,
+                "selectable": true,
+                "dataSaved": true,
+                "locationId": "JAW_RIGHT",
+                "alert": {
+                    "status": false,
+                    "message": ""
+                },
+                "excluded": false,
+                "notes": null,
+                "plot": {
+                    "image": "/static/media/bmode_-40_0.4a6bdb083d93803c8ef1.jpg",
+                    "xAxis": {
+                        "range": [
+                            0,
+                            4.99
+                        ],
+                        "label": "T",
+                        "unit": "s"
+                    },
+                    "yAxis": {
+                        "range": [
+                            -1,
+                            5
+                        ],
+                        "label": "Depth",
+                        "unit": "mm"
+                    },
+                    "colorBar": {
+                        "range": [
+                            -40,
+                            0
+                        ],
+                        "label": "Amplitude",
+                        "unit": "dB"
+                    }
+                },
+                "thickness": 1.31,
+                "autoDetectedTopSurface": 0,
+                "autoDetectedThickness": 1.31,
+                "autoDetectedBottomSurface": 1.31,
+                "topSurface": 0,
+                "bottomSurface": 1.31,
+                "setToAutoDetectedThickness": true
+            },
+            "fCyHAu-eIGcbdbF7-I6bC": {
+                "id": "fCyHAu-eIGcbdbF7-I6bC",
+                "sampleType": "STL",
+                "processing": false,
+                "valueDisplay": true,
+                "selectable": true,
+                "dataSaved": true,
+                "locationId": "JAW_RIGHT",
+                "alert": {
+                    "status": false,
+                    "message": ""
+                },
+                "excluded": false,
+                "notes": null,
+                "plot": {
+                    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAZABkAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCADPAAYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5/ooooAKKKKACirJspg23bRTsyeZdz0Z9DUTfd7UV0khXfniivUVOJ859YmU2lJopoX5RRTVyLItGPCiilLgoD70VaM3e5WRt0Y+tFV4ZhsorPmOr2epSh3klR6ZorWj0w7unaiseWR2pwOlRYwu7j0ormZtaEdtnd/Hj9KK0c9TNU3bU4u6umaMru43A/pRUTwkJ83tRXEmz0ZRitzVMSMmeo/8A10UlnOAGBwQMDmipb5dC+Xm1M8SBC5U9wKKzzcDyyfVzRWZqZDTsFAz/ABMf1op725LjHPH9aKLAf //Z",
+                    "xAxis": {
+                        "range": [
+                            5,
+                            7.5
+                        ],
+                        "label": "rfoc",
+                        "unit": "mm"
+                    },
+                    "yAxis": {
+                        "range": [
+                            -2,
+                            5.93
+                        ],
+                        "label": "Depth",
+                        "unit": "mm"
+                    },
+                    "colorBar": {
+                        "xAxis": {
+                            "range": [
+                                -45,
+                                0
+                            ],
+                            "label": "Amplitude",
+                            "unit": "dB"
+                        },
+                        "yAxis": {
+                            "range": [
+                                0,
+                                12
+                            ],
+                            "label": "SWS",
+                            "unit": "m/s"
+                        }
+                    }
+                },
+                "shearwaveSpeed": 3.24,
+                "percentSliceWidth": 50,
+                "dz": 1.31,
+                "z": 0.66
+            },
+            "0_E7ZJ14rel3tDBBCYXsf": {
+                "id": "0_E7ZJ14rel3tDBBCYXsf",
+                "sampleType": "STL",
+                "processing": false,
+                "valueDisplay": true,
+                "selectable": true,
+                "dataSaved": true,
+                "locationId": "JAW_RIGHT",
+                "alert": {
+                    "status": false,
+                    "message": ""
+                },
+                "excluded": false,
+                "notes": null,
+                "plot": {
+                    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAZABkAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCADPAAYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5/ooooAKKKKACirJspg23bRTsyeZdz0Z9DUTfd7UV0khXfniivUVOJ859YmU2lJopoX5RRTVyLItGPCiilLgoD70VaM3e5WRt0Y+tFV4ZhsorPmOr2epSh3klR6ZorWj0w7unaiseWR2pwOlRYwu7j0ormZtaEdtnd/Hj9KK0c9TNU3bU4u6umaMru43A/pRUTwkJ83tRXEmz0ZRitzVMSMmeo/8A10UlnOAGBwQMDmipb5dC+Xm1M8SBC5U9wKKzzcDyyfVzRWZqZDTsFAz/ABMf1op725LjHPH9aKLAf //Z",
+                    "xAxis": {
+                        "range": [
+                            5,
+                            7.5
+                        ],
+                        "label": "rfoc",
+                        "unit": "mm"
+                    },
+                    "yAxis": {
+                        "range": [
+                            -2,
+                            5.93
+                        ],
+                        "label": "Depth",
+                        "unit": "mm"
+                    },
+                    "colorBar": {
+                        "xAxis": {
+                            "range": [
+                                -45,
+                                0
+                            ],
+                            "label": "Amplitude",
+                            "unit": "dB"
+                        },
+                        "yAxis": {
+                            "range": [
+                                0,
+                                12
+                            ],
+                            "label": "SWS",
+                            "unit": "m/s"
+                        }
+                    }
+                },
+                "shearwaveSpeed": 3.24,
+                "percentSliceWidth": 50,
+                "dz": 1.31,
+                "z": 0.66
+            },
+            "w2NpruDadhwsFpZP9qnlU": {
+                "id": "w2NpruDadhwsFpZP9qnlU",
+                "sampleType": "STL",
+                "processing": false,
+                "valueDisplay": true,
+                "selectable": true,
+                "dataSaved": true,
+                "locationId": "JAW_RIGHT",
+                "alert": {
+                    "status": false,
+                    "message": ""
+                },
+                "excluded": false,
+                "notes": null,
+                "plot": {
+                    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAZABkAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCADPAAYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5/ooooAKKKKACirJspg23bRTsyeZdz0Z9DUTfd7UV0khXfniivUVOJ859YmU2lJopoX5RRTVyLItGPCiilLgoD70VaM3e5WRt0Y+tFV4ZhsorPmOr2epSh3klR6ZorWj0w7unaiseWR2pwOlRYwu7j0ormZtaEdtnd/Hj9KK0c9TNU3bU4u6umaMru43A/pRUTwkJ83tRXEmz0ZRitzVMSMmeo/8A10UlnOAGBwQMDmipb5dC+Xm1M8SBC5U9wKKzzcDyyfVzRWZqZDTsFAz/ABMf1op725LjHPH9aKLAf //Z",
+                    "xAxis": {
+                        "range": [
+                            5,
+                            7.5
+                        ],
+                        "label": "rfoc",
+                        "unit": "mm"
+                    },
+                    "yAxis": {
+                        "range": [
+                            -2,
+                            5.93
+                        ],
+                        "label": "Depth",
+                        "unit": "mm"
+                    },
+                    "colorBar": {
+                        "xAxis": {
+                            "range": [
+                                -45,
+                                0
+                            ],
+                            "label": "Amplitude",
+                            "unit": "dB"
+                        },
+                        "yAxis": {
+                            "range": [
+                                0,
+                                12
+                            ],
+                            "label": "SWS",
+                            "unit": "m/s"
+                        }
+                    }
+                },
+                "shearwaveSpeed": 3.24,
+                "percentSliceWidth": 50,
+                "dz": 1.31,
+                "z": 0.66
+            },
+            "LYqSbzGOpmO3-oc8J7u8z": {
+                "id": "LYqSbzGOpmO3-oc8J7u8z",
+                "sampleType": "STL",
+                "processing": false,
+                "valueDisplay": true,
+                "selectable": true,
+                "dataSaved": true,
+                "locationId": "JAW_RIGHT",
+                "alert": {
+                    "status": false,
+                    "message": ""
+                },
+                "excluded": false,
+                "notes": null,
+                "plot": {
+                    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAZABkAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCADPAAYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5/ooooAKKKKACirJspg23bRTsyeZdz0Z9DUTfd7UV0khXfniivUVOJ859YmU2lJopoX5RRTVyLItGPCiilLgoD70VaM3e5WRt0Y+tFV4ZhsorPmOr2epSh3klR6ZorWj0w7unaiseWR2pwOlRYwu7j0ormZtaEdtnd/Hj9KK0c9TNU3bU4u6umaMru43A/pRUTwkJ83tRXEmz0ZRitzVMSMmeo/8A10UlnOAGBwQMDmipb5dC+Xm1M8SBC5U9wKKzzcDyyfVzRWZqZDTsFAz/ABMf1op725LjHPH9aKLAf //Z",
+                    "xAxis": {
+                        "range": [
+                            5,
+                            7.5
+                        ],
+                        "label": "rfoc",
+                        "unit": "mm"
+                    },
+                    "yAxis": {
+                        "range": [
+                            -2,
+                            5.93
+                        ],
+                        "label": "Depth",
+                        "unit": "mm"
+                    },
+                    "colorBar": {
+                        "xAxis": {
+                            "range": [
+                                -45,
+                                0
+                            ],
+                            "label": "Amplitude",
+                            "unit": "dB"
+                        },
+                        "yAxis": {
+                            "range": [
+                                0,
+                                12
+                            ],
+                            "label": "SWS",
+                            "unit": "m/s"
+                        }
+                    }
+                },
+                "shearwaveSpeed": 3.24,
+                "percentSliceWidth": 50,
+                "dz": 1.31,
+                "z": 0.66
+            },
+            "_b31_emIw5caSJ1s1xhi8": {
+                "id": "_b31_emIw5caSJ1s1xhi8",
+                "sampleType": "STL",
+                "processing": false,
+                "valueDisplay": true,
+                "selectable": true,
+                "dataSaved": true,
+                "locationId": "JAW_RIGHT",
+                "alert": {
+                    "status": false,
+                    "message": ""
+                },
+                "excluded": false,
+                "notes": null,
+                "plot": {
+                    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAZABkAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCADPAAYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5/ooooAKKKKACirJspg23bRTsyeZdz0Z9DUTfd7UV0khXfniivUVOJ859YmU2lJopoX5RRTVyLItGPCiilLgoD70VaM3e5WRt0Y+tFV4ZhsorPmOr2epSh3klR6ZorWj0w7unaiseWR2pwOlRYwu7j0ormZtaEdtnd/Hj9KK0c9TNU3bU4u6umaMru43A/pRUTwkJ83tRXEmz0ZRitzVMSMmeo/8A10UlnOAGBwQMDmipb5dC+Xm1M8SBC5U9wKKzzcDyyfVzRWZqZDTsFAz/ABMf1op725LjHPH9aKLAf //Z",
+                    "xAxis": {
+                        "range": [
+                            5,
+                            7.5
+                        ],
+                        "label": "rfoc",
+                        "unit": "mm"
+                    },
+                    "yAxis": {
+                        "range": [
+                            -2,
+                            5.93
+                        ],
+                        "label": "Depth",
+                        "unit": "mm"
+                    },
+                    "colorBar": {
+                        "xAxis": {
+                            "range": [
+                                -45,
+                                0
+                            ],
+                            "label": "Amplitude",
+                            "unit": "dB"
+                        },
+                        "yAxis": {
+                            "range": [
+                                0,
+                                12
+                            ],
+                            "label": "SWS",
+                            "unit": "m/s"
+                        }
+                    }
+                },
+                "shearwaveSpeed": 3.24,
+                "percentSliceWidth": 50,
+                "dz": 1.31,
+                "z": 0.66
+            },
+            "XoOvFP_d2qlSUs4NbrDj6": {
+                "id": "XoOvFP_d2qlSUs4NbrDj6",
+                "sampleType": "BMODE",
+                "processing": false,
+                "valueDisplay": true,
+                "selectable": true,
+                "dataSaved": true,
+                "locationId": "UNDER_EYES_LEFT",
+                "alert": {
+                    "status": false,
+                    "message": ""
+                },
+                "excluded": false,
+                "notes": null,
+                "plot": {
+                    "image": "/static/media/bmode_-40_0.4a6bdb083d93803c8ef1.jpg",
+                    "xAxis": {
+                        "range": [
+                            0,
+                            4.99
+                        ],
+                        "label": "T",
+                        "unit": "s"
+                    },
+                    "yAxis": {
+                        "range": [
+                            -1,
+                            5
+                        ],
+                        "label": "Depth",
+                        "unit": "mm"
+                    },
+                    "colorBar": {
+                        "range": [
+                            -40,
+                            0
+                        ],
+                        "label": "Amplitude",
+                        "unit": "dB"
+                    }
+                },
+                "thickness": 1.31,
+                "autoDetectedTopSurface": 0,
+                "autoDetectedThickness": 1.31,
+                "autoDetectedBottomSurface": 1.31,
+                "topSurface": 0,
+                "bottomSurface": 1.31,
+                "setToAutoDetectedThickness": true
+            },
+            "FIFsIXjnYYYCyW1gcG1UZ": {
+                "id": "FIFsIXjnYYYCyW1gcG1UZ",
+                "sampleType": "STL",
+                "processing": false,
+                "valueDisplay": true,
+                "selectable": true,
+                "dataSaved": true,
+                "locationId": "UNDER_EYES_LEFT",
+                "alert": {
+                    "status": false,
+                    "message": ""
+                },
+                "excluded": false,
+                "notes": null,
+                "plot": {
+                    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAZABkAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCADPAAYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5/ooooAKKKKACirJspg23bRTsyeZdz0Z9DUTfd7UV0khXfniivUVOJ859YmU2lJopoX5RRTVyLItGPCiilLgoD70VaM3e5WRt0Y+tFV4ZhsorPmOr2epSh3klR6ZorWj0w7unaiseWR2pwOlRYwu7j0ormZtaEdtnd/Hj9KK0c9TNU3bU4u6umaMru43A/pRUTwkJ83tRXEmz0ZRitzVMSMmeo/8A10UlnOAGBwQMDmipb5dC+Xm1M8SBC5U9wKKzzcDyyfVzRWZqZDTsFAz/ABMf1op725LjHPH9aKLAf //Z",
+                    "xAxis": {
+                        "range": [
+                            5,
+                            7.5
+                        ],
+                        "label": "rfoc",
+                        "unit": "mm"
+                    },
+                    "yAxis": {
+                        "range": [
+                            -2,
+                            5.93
+                        ],
+                        "label": "Depth",
+                        "unit": "mm"
+                    },
+                    "colorBar": {
+                        "xAxis": {
+                            "range": [
+                                -45,
+                                0
+                            ],
+                            "label": "Amplitude",
+                            "unit": "dB"
+                        },
+                        "yAxis": {
+                            "range": [
+                                0,
+                                12
+                            ],
+                            "label": "SWS",
+                            "unit": "m/s"
+                        }
+                    }
+                },
+                "shearwaveSpeed": 3.24,
+                "percentSliceWidth": 50,
+                "dz": 1.31,
+                "z": 0.66
+            },
+            "2WeBLbkTSkkzFR5LEgIi8": {
+                "id": "2WeBLbkTSkkzFR5LEgIi8",
+                "sampleType": "STL",
+                "processing": false,
+                "valueDisplay": true,
+                "selectable": true,
+                "dataSaved": true,
+                "locationId": "UNDER_EYES_LEFT",
+                "alert": {
+                    "status": false,
+                    "message": ""
+                },
+                "excluded": false,
+                "notes": null,
+                "plot": {
+                    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAZABkAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCADPAAYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5/ooooAKKKKACirJspg23bRTsyeZdz0Z9DUTfd7UV0khXfniivUVOJ859YmU2lJopoX5RRTVyLItGPCiilLgoD70VaM3e5WRt0Y+tFV4ZhsorPmOr2epSh3klR6ZorWj0w7unaiseWR2pwOlRYwu7j0ormZtaEdtnd/Hj9KK0c9TNU3bU4u6umaMru43A/pRUTwkJ83tRXEmz0ZRitzVMSMmeo/8A10UlnOAGBwQMDmipb5dC+Xm1M8SBC5U9wKKzzcDyyfVzRWZqZDTsFAz/ABMf1op725LjHPH9aKLAf //Z",
+                    "xAxis": {
+                        "range": [
+                            5,
+                            7.5
+                        ],
+                        "label": "rfoc",
+                        "unit": "mm"
+                    },
+                    "yAxis": {
+                        "range": [
+                            -2,
+                            5.93
+                        ],
+                        "label": "Depth",
+                        "unit": "mm"
+                    },
+                    "colorBar": {
+                        "xAxis": {
+                            "range": [
+                                -45,
+                                0
+                            ],
+                            "label": "Amplitude",
+                            "unit": "dB"
+                        },
+                        "yAxis": {
+                            "range": [
+                                0,
+                                12
+                            ],
+                            "label": "SWS",
+                            "unit": "m/s"
+                        }
+                    }
+                },
+                "shearwaveSpeed": 3.24,
+                "percentSliceWidth": 50,
+                "dz": 1.31,
+                "z": 0.66
+            },
+            "3qgXhJtJ2NE9PbzENGgh9": {
+                "id": "3qgXhJtJ2NE9PbzENGgh9",
+                "sampleType": "STL",
+                "processing": false,
+                "valueDisplay": true,
+                "selectable": true,
+                "dataSaved": true,
+                "locationId": "UNDER_EYES_LEFT",
+                "alert": {
+                    "status": false,
+                    "message": ""
+                },
+                "excluded": false,
+                "notes": null,
+                "plot": {
+                    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAZABkAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCADPAAYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5/ooooAKKKKACirJspg23bRTsyeZdz0Z9DUTfd7UV0khXfniivUVOJ859YmU2lJopoX5RRTVyLItGPCiilLgoD70VaM3e5WRt0Y+tFV4ZhsorPmOr2epSh3klR6ZorWj0w7unaiseWR2pwOlRYwu7j0ormZtaEdtnd/Hj9KK0c9TNU3bU4u6umaMru43A/pRUTwkJ83tRXEmz0ZRitzVMSMmeo/8A10UlnOAGBwQMDmipb5dC+Xm1M8SBC5U9wKKzzcDyyfVzRWZqZDTsFAz/ABMf1op725LjHPH9aKLAf //Z",
+                    "xAxis": {
+                        "range": [
+                            5,
+                            7.5
+                        ],
+                        "label": "rfoc",
+                        "unit": "mm"
+                    },
+                    "yAxis": {
+                        "range": [
+                            -2,
+                            5.93
+                        ],
+                        "label": "Depth",
+                        "unit": "mm"
+                    },
+                    "colorBar": {
+                        "xAxis": {
+                            "range": [
+                                -45,
+                                0
+                            ],
+                            "label": "Amplitude",
+                            "unit": "dB"
+                        },
+                        "yAxis": {
+                            "range": [
+                                0,
+                                12
+                            ],
+                            "label": "SWS",
+                            "unit": "m/s"
+                        }
+                    }
+                },
+                "shearwaveSpeed": 3.24,
+                "percentSliceWidth": 50,
+                "dz": 1.31,
+                "z": 0.66
+            },
+            "Ew4Oyl_aDoCxF53PAb5wM": {
+                "id": "Ew4Oyl_aDoCxF53PAb5wM",
+                "sampleType": "STL",
+                "processing": false,
+                "valueDisplay": true,
+                "selectable": true,
+                "dataSaved": true,
+                "locationId": "UNDER_EYES_LEFT",
+                "alert": {
+                    "status": false,
+                    "message": ""
+                },
+                "excluded": false,
+                "notes": null,
+                "plot": {
+                    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAZABkAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCADPAAYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5/ooooAKKKKACirJspg23bRTsyeZdz0Z9DUTfd7UV0khXfniivUVOJ859YmU2lJopoX5RRTVyLItGPCiilLgoD70VaM3e5WRt0Y+tFV4ZhsorPmOr2epSh3klR6ZorWj0w7unaiseWR2pwOlRYwu7j0ormZtaEdtnd/Hj9KK0c9TNU3bU4u6umaMru43A/pRUTwkJ83tRXEmz0ZRitzVMSMmeo/8A10UlnOAGBwQMDmipb5dC+Xm1M8SBC5U9wKKzzcDyyfVzRWZqZDTsFAz/ABMf1op725LjHPH9aKLAf //Z",
+                    "xAxis": {
+                        "range": [
+                            5,
+                            7.5
+                        ],
+                        "label": "rfoc",
+                        "unit": "mm"
+                    },
+                    "yAxis": {
+                        "range": [
+                            -2,
+                            5.93
+                        ],
+                        "label": "Depth",
+                        "unit": "mm"
+                    },
+                    "colorBar": {
+                        "xAxis": {
+                            "range": [
+                                -45,
+                                0
+                            ],
+                            "label": "Amplitude",
+                            "unit": "dB"
+                        },
+                        "yAxis": {
+                            "range": [
+                                0,
+                                12
+                            ],
+                            "label": "SWS",
+                            "unit": "m/s"
+                        }
+                    }
+                },
+                "shearwaveSpeed": 3.24,
+                "percentSliceWidth": 50,
+                "dz": 1.31,
+                "z": 0.66
+            },
+            "ANgWwFYH00px3UMhK815L": {
+                "id": "ANgWwFYH00px3UMhK815L",
+                "sampleType": "STL",
+                "processing": false,
+                "valueDisplay": true,
+                "selectable": true,
+                "dataSaved": true,
+                "locationId": "UNDER_EYES_LEFT",
+                "alert": {
+                    "status": false,
+                    "message": ""
+                },
+                "excluded": false,
+                "notes": null,
+                "plot": {
+                    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAZABkAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCADPAAYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5/ooooAKKKKACirJspg23bRTsyeZdz0Z9DUTfd7UV0khXfniivUVOJ859YmU2lJopoX5RRTVyLItGPCiilLgoD70VaM3e5WRt0Y+tFV4ZhsorPmOr2epSh3klR6ZorWj0w7unaiseWR2pwOlRYwu7j0ormZtaEdtnd/Hj9KK0c9TNU3bU4u6umaMru43A/pRUTwkJ83tRXEmz0ZRitzVMSMmeo/8A10UlnOAGBwQMDmipb5dC+Xm1M8SBC5U9wKKzzcDyyfVzRWZqZDTsFAz/ABMf1op725LjHPH9aKLAf //Z",
+                    "xAxis": {
+                        "range": [
+                            5,
+                            7.5
+                        ],
+                        "label": "rfoc",
+                        "unit": "mm"
+                    },
+                    "yAxis": {
+                        "range": [
+                            -2,
+                            5.93
+                        ],
+                        "label": "Depth",
+                        "unit": "mm"
+                    },
+                    "colorBar": {
+                        "xAxis": {
+                            "range": [
+                                -45,
+                                0
+                            ],
+                            "label": "Amplitude",
+                            "unit": "dB"
+                        },
+                        "yAxis": {
+                            "range": [
+                                0,
+                                12
+                            ],
+                            "label": "SWS",
+                            "unit": "m/s"
+                        }
+                    }
+                },
+                "shearwaveSpeed": 3.24,
+                "percentSliceWidth": 50,
+                "dz": 1.31,
+                "z": 0.66
+            },
+            "RkUiDqYFFVkcvrPgyMOr5": {
+                "id": "RkUiDqYFFVkcvrPgyMOr5",
+                "sampleType": "BMODE",
+                "processing": false,
+                "valueDisplay": true,
+                "selectable": true,
+                "dataSaved": true,
+                "locationId": "CHEEK_LEFT",
+                "alert": {
+                    "status": false,
+                    "message": ""
+                },
+                "excluded": false,
+                "notes": null,
+                "plot": {
+                    "image": "/static/media/bmode_-40_0.4a6bdb083d93803c8ef1.jpg",
+                    "xAxis": {
+                        "range": [
+                            0,
+                            4.99
+                        ],
+                        "label": "T",
+                        "unit": "s"
+                    },
+                    "yAxis": {
+                        "range": [
+                            -1,
+                            5
+                        ],
+                        "label": "Depth",
+                        "unit": "mm"
+                    },
+                    "colorBar": {
+                        "range": [
+                            -40,
+                            0
+                        ],
+                        "label": "Amplitude",
+                        "unit": "dB"
+                    }
+                },
+                "thickness": 1.31,
+                "autoDetectedTopSurface": 0,
+                "autoDetectedThickness": 1.31,
+                "autoDetectedBottomSurface": 1.31,
+                "topSurface": 0,
+                "bottomSurface": 1.31,
+                "setToAutoDetectedThickness": true
+            },
+            "-CQxLyVGVN8Zv5g-n3MXb": {
+                "id": "-CQxLyVGVN8Zv5g-n3MXb",
+                "sampleType": "STL",
+                "processing": false,
+                "valueDisplay": true,
+                "selectable": true,
+                "dataSaved": true,
+                "locationId": "CHEEK_LEFT",
+                "alert": {
+                    "status": false,
+                    "message": ""
+                },
+                "excluded": false,
+                "notes": null,
+                "plot": {
+                    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAZABkAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCADPAAYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5/ooooAKKKKACirJspg23bRTsyeZdz0Z9DUTfd7UV0khXfniivUVOJ859YmU2lJopoX5RRTVyLItGPCiilLgoD70VaM3e5WRt0Y+tFV4ZhsorPmOr2epSh3klR6ZorWj0w7unaiseWR2pwOlRYwu7j0ormZtaEdtnd/Hj9KK0c9TNU3bU4u6umaMru43A/pRUTwkJ83tRXEmz0ZRitzVMSMmeo/8A10UlnOAGBwQMDmipb5dC+Xm1M8SBC5U9wKKzzcDyyfVzRWZqZDTsFAz/ABMf1op725LjHPH9aKLAf //Z",
+                    "xAxis": {
+                        "range": [
+                            5,
+                            7.5
+                        ],
+                        "label": "rfoc",
+                        "unit": "mm"
+                    },
+                    "yAxis": {
+                        "range": [
+                            -2,
+                            5.93
+                        ],
+                        "label": "Depth",
+                        "unit": "mm"
+                    },
+                    "colorBar": {
+                        "xAxis": {
+                            "range": [
+                                -45,
+                                0
+                            ],
+                            "label": "Amplitude",
+                            "unit": "dB"
+                        },
+                        "yAxis": {
+                            "range": [
+                                0,
+                                12
+                            ],
+                            "label": "SWS",
+                            "unit": "m/s"
+                        }
+                    }
+                },
+                "shearwaveSpeed": 3.24,
+                "percentSliceWidth": 50,
+                "dz": 1.31,
+                "z": 0.66
+            },
+            "lxFsFJ4ruhgLibQINY5Ds": {
+                "id": "lxFsFJ4ruhgLibQINY5Ds",
+                "sampleType": "STL",
+                "processing": false,
+                "valueDisplay": true,
+                "selectable": true,
+                "dataSaved": true,
+                "locationId": "CHEEK_LEFT",
+                "alert": {
+                    "status": false,
+                    "message": ""
+                },
+                "excluded": false,
+                "notes": null,
+                "plot": {
+                    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAZABkAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCADPAAYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5/ooooAKKKKACirJspg23bRTsyeZdz0Z9DUTfd7UV0khXfniivUVOJ859YmU2lJopoX5RRTVyLItGPCiilLgoD70VaM3e5WRt0Y+tFV4ZhsorPmOr2epSh3klR6ZorWj0w7unaiseWR2pwOlRYwu7j0ormZtaEdtnd/Hj9KK0c9TNU3bU4u6umaMru43A/pRUTwkJ83tRXEmz0ZRitzVMSMmeo/8A10UlnOAGBwQMDmipb5dC+Xm1M8SBC5U9wKKzzcDyyfVzRWZqZDTsFAz/ABMf1op725LjHPH9aKLAf //Z",
+                    "xAxis": {
+                        "range": [
+                            5,
+                            7.5
+                        ],
+                        "label": "rfoc",
+                        "unit": "mm"
+                    },
+                    "yAxis": {
+                        "range": [
+                            -2,
+                            5.93
+                        ],
+                        "label": "Depth",
+                        "unit": "mm"
+                    },
+                    "colorBar": {
+                        "xAxis": {
+                            "range": [
+                                -45,
+                                0
+                            ],
+                            "label": "Amplitude",
+                            "unit": "dB"
+                        },
+                        "yAxis": {
+                            "range": [
+                                0,
+                                12
+                            ],
+                            "label": "SWS",
+                            "unit": "m/s"
+                        }
+                    }
+                },
+                "shearwaveSpeed": 3.24,
+                "percentSliceWidth": 50,
+                "dz": 1.31,
+                "z": 0.66
+            },
+            "cWow1ewD1mGxDtgLVaFr6": {
+                "id": "cWow1ewD1mGxDtgLVaFr6",
+                "sampleType": "STL",
+                "processing": false,
+                "valueDisplay": true,
+                "selectable": true,
+                "dataSaved": true,
+                "locationId": "CHEEK_LEFT",
+                "alert": {
+                    "status": false,
+                    "message": ""
+                },
+                "excluded": false,
+                "notes": null,
+                "plot": {
+                    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAZABkAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCADPAAYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5/ooooAKKKKACirJspg23bRTsyeZdz0Z9DUTfd7UV0khXfniivUVOJ859YmU2lJopoX5RRTVyLItGPCiilLgoD70VaM3e5WRt0Y+tFV4ZhsorPmOr2epSh3klR6ZorWj0w7unaiseWR2pwOlRYwu7j0ormZtaEdtnd/Hj9KK0c9TNU3bU4u6umaMru43A/pRUTwkJ83tRXEmz0ZRitzVMSMmeo/8A10UlnOAGBwQMDmipb5dC+Xm1M8SBC5U9wKKzzcDyyfVzRWZqZDTsFAz/ABMf1op725LjHPH9aKLAf //Z",
+                    "xAxis": {
+                        "range": [
+                            5,
+                            7.5
+                        ],
+                        "label": "rfoc",
+                        "unit": "mm"
+                    },
+                    "yAxis": {
+                        "range": [
+                            -2,
+                            5.93
+                        ],
+                        "label": "Depth",
+                        "unit": "mm"
+                    },
+                    "colorBar": {
+                        "xAxis": {
+                            "range": [
+                                -45,
+                                0
+                            ],
+                            "label": "Amplitude",
+                            "unit": "dB"
+                        },
+                        "yAxis": {
+                            "range": [
+                                0,
+                                12
+                            ],
+                            "label": "SWS",
+                            "unit": "m/s"
+                        }
+                    }
+                },
+                "shearwaveSpeed": 3.24,
+                "percentSliceWidth": 50,
+                "dz": 1.31,
+                "z": 0.66
+            },
+            "rs1OVRrwqk1tnNXuHR72e": {
+                "id": "rs1OVRrwqk1tnNXuHR72e",
+                "sampleType": "STL",
+                "processing": false,
+                "valueDisplay": true,
+                "selectable": true,
+                "dataSaved": true,
+                "locationId": "CHEEK_LEFT",
+                "alert": {
+                    "status": false,
+                    "message": ""
+                },
+                "excluded": false,
+                "notes": null,
+                "plot": {
+                    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAZABkAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCADPAAYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5/ooooAKKKKACirJspg23bRTsyeZdz0Z9DUTfd7UV0khXfniivUVOJ859YmU2lJopoX5RRTVyLItGPCiilLgoD70VaM3e5WRt0Y+tFV4ZhsorPmOr2epSh3klR6ZorWj0w7unaiseWR2pwOlRYwu7j0ormZtaEdtnd/Hj9KK0c9TNU3bU4u6umaMru43A/pRUTwkJ83tRXEmz0ZRitzVMSMmeo/8A10UlnOAGBwQMDmipb5dC+Xm1M8SBC5U9wKKzzcDyyfVzRWZqZDTsFAz/ABMf1op725LjHPH9aKLAf //Z",
+                    "xAxis": {
+                        "range": [
+                            5,
+                            7.5
+                        ],
+                        "label": "rfoc",
+                        "unit": "mm"
+                    },
+                    "yAxis": {
+                        "range": [
+                            -2,
+                            5.93
+                        ],
+                        "label": "Depth",
+                        "unit": "mm"
+                    },
+                    "colorBar": {
+                        "xAxis": {
+                            "range": [
+                                -45,
+                                0
+                            ],
+                            "label": "Amplitude",
+                            "unit": "dB"
+                        },
+                        "yAxis": {
+                            "range": [
+                                0,
+                                12
+                            ],
+                            "label": "SWS",
+                            "unit": "m/s"
+                        }
+                    }
+                },
+                "shearwaveSpeed": 3.24,
+                "percentSliceWidth": 50,
+                "dz": 1.31,
+                "z": 0.66
+            },
+            "pIsAlgTU7ZK618BxNWGJp": {
+                "id": "pIsAlgTU7ZK618BxNWGJp",
+                "sampleType": "STL",
+                "processing": false,
+                "valueDisplay": true,
+                "selectable": true,
+                "dataSaved": true,
+                "locationId": "CHEEK_LEFT",
+                "alert": {
+                    "status": false,
+                    "message": ""
+                },
+                "excluded": false,
+                "notes": null,
+                "plot": {
+                    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAZABkAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCADPAAYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5/ooooAKKKKACirJspg23bRTsyeZdz0Z9DUTfd7UV0khXfniivUVOJ859YmU2lJopoX5RRTVyLItGPCiilLgoD70VaM3e5WRt0Y+tFV4ZhsorPmOr2epSh3klR6ZorWj0w7unaiseWR2pwOlRYwu7j0ormZtaEdtnd/Hj9KK0c9TNU3bU4u6umaMru43A/pRUTwkJ83tRXEmz0ZRitzVMSMmeo/8A10UlnOAGBwQMDmipb5dC+Xm1M8SBC5U9wKKzzcDyyfVzRWZqZDTsFAz/ABMf1op725LjHPH9aKLAf //Z",
+                    "xAxis": {
+                        "range": [
+                            5,
+                            7.5
+                        ],
+                        "label": "rfoc",
+                        "unit": "mm"
+                    },
+                    "yAxis": {
+                        "range": [
+                            -2,
+                            5.93
+                        ],
+                        "label": "Depth",
+                        "unit": "mm"
+                    },
+                    "colorBar": {
+                        "xAxis": {
+                            "range": [
+                                -45,
+                                0
+                            ],
+                            "label": "Amplitude",
+                            "unit": "dB"
+                        },
+                        "yAxis": {
+                            "range": [
+                                0,
+                                12
+                            ],
+                            "label": "SWS",
+                            "unit": "m/s"
+                        }
+                    }
+                },
+                "shearwaveSpeed": 3.24,
+                "percentSliceWidth": 50,
+                "dz": 1.31,
+                "z": 0.66
+            },
+            "ows1NY5AzqtolE7dqQeGO": {
+                "id": "ows1NY5AzqtolE7dqQeGO",
+                "sampleType": "BMODE",
+                "processing": false,
+                "valueDisplay": true,
+                "selectable": true,
+                "dataSaved": true,
+                "locationId": "JAW_LEFT",
+                "alert": {
+                    "status": false,
+                    "message": ""
+                },
+                "excluded": false,
+                "notes": null,
+                "plot": {
+                    "image": "/static/media/bmode_-40_0.4a6bdb083d93803c8ef1.jpg",
+                    "xAxis": {
+                        "range": [
+                            0,
+                            4.99
+                        ],
+                        "label": "T",
+                        "unit": "s"
+                    },
+                    "yAxis": {
+                        "range": [
+                            -1,
+                            5
+                        ],
+                        "label": "Depth",
+                        "unit": "mm"
+                    },
+                    "colorBar": {
+                        "range": [
+                            -40,
+                            0
+                        ],
+                        "label": "Amplitude",
+                        "unit": "dB"
+                    }
+                },
+                "thickness": 1.31,
+                "autoDetectedTopSurface": 0,
+                "autoDetectedThickness": 1.31,
+                "autoDetectedBottomSurface": 1.31,
+                "topSurface": 0,
+                "bottomSurface": 1.31,
+                "setToAutoDetectedThickness": true
+            },
+            "oGOqOMAyppKMGPxdeYHtj": {
+                "id": "oGOqOMAyppKMGPxdeYHtj",
+                "sampleType": "STL",
+                "processing": false,
+                "valueDisplay": true,
+                "selectable": true,
+                "dataSaved": true,
+                "locationId": "JAW_LEFT",
+                "alert": {
+                    "status": false,
+                    "message": ""
+                },
+                "excluded": false,
+                "notes": null,
+                "plot": {
+                    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAZABkAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCADPAAYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5/ooooAKKKKACirJspg23bRTsyeZdz0Z9DUTfd7UV0khXfniivUVOJ859YmU2lJopoX5RRTVyLItGPCiilLgoD70VaM3e5WRt0Y+tFV4ZhsorPmOr2epSh3klR6ZorWj0w7unaiseWR2pwOlRYwu7j0ormZtaEdtnd/Hj9KK0c9TNU3bU4u6umaMru43A/pRUTwkJ83tRXEmz0ZRitzVMSMmeo/8A10UlnOAGBwQMDmipb5dC+Xm1M8SBC5U9wKKzzcDyyfVzRWZqZDTsFAz/ABMf1op725LjHPH9aKLAf //Z",
+                    "xAxis": {
+                        "range": [
+                            5,
+                            7.5
+                        ],
+                        "label": "rfoc",
+                        "unit": "mm"
+                    },
+                    "yAxis": {
+                        "range": [
+                            -2,
+                            5.93
+                        ],
+                        "label": "Depth",
+                        "unit": "mm"
+                    },
+                    "colorBar": {
+                        "xAxis": {
+                            "range": [
+                                -45,
+                                0
+                            ],
+                            "label": "Amplitude",
+                            "unit": "dB"
+                        },
+                        "yAxis": {
+                            "range": [
+                                0,
+                                12
+                            ],
+                            "label": "SWS",
+                            "unit": "m/s"
+                        }
+                    }
+                },
+                "shearwaveSpeed": 3.24,
+                "percentSliceWidth": 50,
+                "dz": 1.31,
+                "z": 0.66
+            },
+            "Oh5oGFoWjcqRf5ZWJVdyQ": {
+                "id": "Oh5oGFoWjcqRf5ZWJVdyQ",
+                "sampleType": "STL",
+                "processing": false,
+                "valueDisplay": true,
+                "selectable": true,
+                "dataSaved": true,
+                "locationId": "JAW_LEFT",
+                "alert": {
+                    "status": false,
+                    "message": ""
+                },
+                "excluded": false,
+                "notes": null,
+                "plot": {
+                    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAZABkAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCADPAAYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5/ooooAKKKKACirJspg23bRTsyeZdz0Z9DUTfd7UV0khXfniivUVOJ859YmU2lJopoX5RRTVyLItGPCiilLgoD70VaM3e5WRt0Y+tFV4ZhsorPmOr2epSh3klR6ZorWj0w7unaiseWR2pwOlRYwu7j0ormZtaEdtnd/Hj9KK0c9TNU3bU4u6umaMru43A/pRUTwkJ83tRXEmz0ZRitzVMSMmeo/8A10UlnOAGBwQMDmipb5dC+Xm1M8SBC5U9wKKzzcDyyfVzRWZqZDTsFAz/ABMf1op725LjHPH9aKLAf //Z",
+                    "xAxis": {
+                        "range": [
+                            5,
+                            7.5
+                        ],
+                        "label": "rfoc",
+                        "unit": "mm"
+                    },
+                    "yAxis": {
+                        "range": [
+                            -2,
+                            5.93
+                        ],
+                        "label": "Depth",
+                        "unit": "mm"
+                    },
+                    "colorBar": {
+                        "xAxis": {
+                            "range": [
+                                -45,
+                                0
+                            ],
+                            "label": "Amplitude",
+                            "unit": "dB"
+                        },
+                        "yAxis": {
+                            "range": [
+                                0,
+                                12
+                            ],
+                            "label": "SWS",
+                            "unit": "m/s"
+                        }
+                    }
+                },
+                "shearwaveSpeed": 3.24,
+                "percentSliceWidth": 50,
+                "dz": 1.31,
+                "z": 0.66
+            },
+            "vB_B48ljUtrPXp5bvKiLm": {
+                "id": "vB_B48ljUtrPXp5bvKiLm",
+                "sampleType": "STL",
+                "processing": false,
+                "valueDisplay": true,
+                "selectable": true,
+                "dataSaved": true,
+                "locationId": "JAW_LEFT",
+                "alert": {
+                    "status": false,
+                    "message": ""
+                },
+                "excluded": false,
+                "notes": null,
+                "plot": {
+                    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAZABkAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCADPAAYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5/ooooAKKKKACirJspg23bRTsyeZdz0Z9DUTfd7UV0khXfniivUVOJ859YmU2lJopoX5RRTVyLItGPCiilLgoD70VaM3e5WRt0Y+tFV4ZhsorPmOr2epSh3klR6ZorWj0w7unaiseWR2pwOlRYwu7j0ormZtaEdtnd/Hj9KK0c9TNU3bU4u6umaMru43A/pRUTwkJ83tRXEmz0ZRitzVMSMmeo/8A10UlnOAGBwQMDmipb5dC+Xm1M8SBC5U9wKKzzcDyyfVzRWZqZDTsFAz/ABMf1op725LjHPH9aKLAf //Z",
+                    "xAxis": {
+                        "range": [
+                            5,
+                            7.5
+                        ],
+                        "label": "rfoc",
+                        "unit": "mm"
+                    },
+                    "yAxis": {
+                        "range": [
+                            -2,
+                            5.93
+                        ],
+                        "label": "Depth",
+                        "unit": "mm"
+                    },
+                    "colorBar": {
+                        "xAxis": {
+                            "range": [
+                                -45,
+                                0
+                            ],
+                            "label": "Amplitude",
+                            "unit": "dB"
+                        },
+                        "yAxis": {
+                            "range": [
+                                0,
+                                12
+                            ],
+                            "label": "SWS",
+                            "unit": "m/s"
+                        }
+                    }
+                },
+                "shearwaveSpeed": 3.24,
+                "percentSliceWidth": 50,
+                "dz": 1.31,
+                "z": 0.66
+            },
+            "C6BWWQMEzZwIaCDNxQT6_": {
+                "id": "C6BWWQMEzZwIaCDNxQT6_",
+                "sampleType": "STL",
+                "processing": false,
+                "valueDisplay": true,
+                "selectable": true,
+                "dataSaved": true,
+                "locationId": "JAW_LEFT",
+                "alert": {
+                    "status": false,
+                    "message": ""
+                },
+                "excluded": false,
+                "notes": null,
+                "plot": {
+                    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAZABkAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCADPAAYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5/ooooAKKKKACirJspg23bRTsyeZdz0Z9DUTfd7UV0khXfniivUVOJ859YmU2lJopoX5RRTVyLItGPCiilLgoD70VaM3e5WRt0Y+tFV4ZhsorPmOr2epSh3klR6ZorWj0w7unaiseWR2pwOlRYwu7j0ormZtaEdtnd/Hj9KK0c9TNU3bU4u6umaMru43A/pRUTwkJ83tRXEmz0ZRitzVMSMmeo/8A10UlnOAGBwQMDmipb5dC+Xm1M8SBC5U9wKKzzcDyyfVzRWZqZDTsFAz/ABMf1op725LjHPH9aKLAf //Z",
+                    "xAxis": {
+                        "range": [
+                            5,
+                            7.5
+                        ],
+                        "label": "rfoc",
+                        "unit": "mm"
+                    },
+                    "yAxis": {
+                        "range": [
+                            -2,
+                            5.93
+                        ],
+                        "label": "Depth",
+                        "unit": "mm"
+                    },
+                    "colorBar": {
+                        "xAxis": {
+                            "range": [
+                                -45,
+                                0
+                            ],
+                            "label": "Amplitude",
+                            "unit": "dB"
+                        },
+                        "yAxis": {
+                            "range": [
+                                0,
+                                12
+                            ],
+                            "label": "SWS",
+                            "unit": "m/s"
+                        }
+                    }
+                },
+                "shearwaveSpeed": 3.24,
+                "percentSliceWidth": 50,
+                "dz": 1.31,
+                "z": 0.66
+            },
+            "2BG6wUkeGb1lUk4dOKm9B": {
+                "id": "2BG6wUkeGb1lUk4dOKm9B",
+                "sampleType": "STL",
+                "processing": false,
+                "valueDisplay": true,
+                "selectable": true,
+                "dataSaved": true,
+                "locationId": "JAW_LEFT",
+                "alert": {
+                    "status": false,
+                    "message": ""
+                },
+                "excluded": false,
+                "notes": null,
+                "plot": {
+                    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAZABkAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCADPAAYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5/ooooAKKKKACirJspg23bRTsyeZdz0Z9DUTfd7UV0khXfniivUVOJ859YmU2lJopoX5RRTVyLItGPCiilLgoD70VaM3e5WRt0Y+tFV4ZhsorPmOr2epSh3klR6ZorWj0w7unaiseWR2pwOlRYwu7j0ormZtaEdtnd/Hj9KK0c9TNU3bU4u6umaMru43A/pRUTwkJ83tRXEmz0ZRitzVMSMmeo/8A10UlnOAGBwQMDmipb5dC+Xm1M8SBC5U9wKKzzcDyyfVzRWZqZDTsFAz/ABMf1op725LjHPH9aKLAf //Z",
+                    "xAxis": {
+                        "range": [
+                            5,
+                            7.5
+                        ],
+                        "label": "rfoc",
+                        "unit": "mm"
+                    },
+                    "yAxis": {
+                        "range": [
+                            -2,
+                            5.93
+                        ],
+                        "label": "Depth",
+                        "unit": "mm"
+                    },
+                    "colorBar": {
+                        "xAxis": {
+                            "range": [
+                                -45,
+                                0
+                            ],
+                            "label": "Amplitude",
+                            "unit": "dB"
+                        },
+                        "yAxis": {
+                            "range": [
+                                0,
+                                12
+                            ],
+                            "label": "SWS",
+                            "unit": "m/s"
+                        }
+                    }
+                },
+                "shearwaveSpeed": 3.24,
+                "percentSliceWidth": 50,
+                "dz": 1.31,
+                "z": 0.66
+            }
+        }
+    },
+    "formData": {
+        "ids": [
+            "SKIN_CONDITION"
+        ],
+        "entities": {
+            "SKIN_CONDITION": {
+                "id": "SKIN_CONDITION",
+                "completed": true,
+                "data": {
+                    "skin_type": "II",
+                    "skin_care": [
+                        "Sunscreen",
+                        "Moisturizer"
+                    ],
+                    "sun_damage": "0"
+                }
+            }
+        }
+    }
+}

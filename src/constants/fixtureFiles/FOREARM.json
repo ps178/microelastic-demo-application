@@ -1,0 +1,240 @@
+{
+    "examDefId": "FOREARM",
+    "examDefName": "Forearm Assessment",
+    "modified": false,
+    "locationTemplate": {
+        "name": null,
+        "sampleTypes": {
+            "BMODE": {
+                "displayName": "T-Mode",
+                "requiredNumber": 1,
+                "paramId": "gamma_bmode"
+            },
+            "STL": {
+                "displayName": "E-Mode",
+                "requiredNumber": 3,
+                "paramId": "gamma_stl_5p0_0p5_7p5"
+            }
+        },
+        "notes": null,
+        "excluded": false,
+        "instructions": {
+            "text": "",
+            "illustration": []
+        },
+        "mapCoords": {}
+    },
+    "locations": {
+        "ids": [
+            "INNER_FOREARM_FLEXED_RIGHT",
+            "INNER_FOREARM_EXTENDED_RIGHT",
+            "INNER_FOREARM_FLEXED_LEFT",
+            "INNER_FOREARM_EXTENDED_LEFT"
+        ],
+        "entities": {
+            "INNER_FOREARM_FLEXED_RIGHT": {
+                "id": "INNER_FOREARM_FLEXED_RIGHT",
+                "name": "Inner Forearm Flexed (R)",
+                "sampleTypes": {
+                    "BMODE": {
+                        "displayName": "T-Mode",
+                        "requiredNumber": 1,
+                        "paramId": "gamma_bmode"
+                    },
+                    "STL": {
+                        "displayName": "E-Mode",
+                        "requiredNumber": 3,
+                        "paramId": "gamma_stl_5p0_0p5_7p5"
+                    }
+                },
+                "notes": null,
+                "excluded": false,
+                "instructions": {
+                    "text": "The participant should have their right arm flexed with their elbow bent.",
+                    "illustration": [
+                        {
+                            "image": null,
+                            "filename": "forearmFlexedRight.png"
+                        }
+                    ]
+                },
+                "mapCoords": {
+                    "FOREARM_MAP": [
+                        16.745540589734254,
+                        36.59742828882295,
+                        17.801237713869675,
+                        40.80118694362018,
+                        21.769202766654534,
+                        40.20771513353116,
+                        24.681470695303968,
+                        39.36696340257171,
+                        27.33891518019658,
+                        38.67457962413452,
+                        26.028394612304332,
+                        32.54203758654797,
+                        23.443756825627958,
+                        33.38278931750742,
+                        20.458682198762286,
+                        34.91592482690405,
+                        18.602111394248272,
+                        35.90504451038576
+                    ]
+                }
+            },
+            "INNER_FOREARM_EXTENDED_RIGHT": {
+                "id": "INNER_FOREARM_EXTENDED_RIGHT",
+                "name": "Inner Forearm Extended (R)",
+                "sampleTypes": {
+                    "BMODE": {
+                        "displayName": "T-Mode",
+                        "requiredNumber": 1,
+                        "paramId": "gamma_bmode"
+                    },
+                    "STL": {
+                        "displayName": "E-Mode",
+                        "requiredNumber": 3,
+                        "paramId": "gamma_stl_5p0_0p5_7p5"
+                    }
+                },
+                "notes": null,
+                "excluded": false,
+                "mapCoords": {
+                    "FOREARM_MAP": [
+                        14.160902803057882,
+                        78.98120672601385,
+                        16.30870040043684,
+                        82.69040553907023,
+                        18.602111394248272,
+                        80.811078140455,
+                        20.531488896978523,
+                        78.98120672601385,
+                        22.934109938114307,
+                        76.95351137487636,
+                        20.895522388059703,
+                        71.06824925816024,
+                        19.475791772843102,
+                        72.74975272007913,
+                        17.72843101565344,
+                        74.92581602373888,
+                        15.94466690935566,
+                        77.05242334322453
+                    ]
+                },
+                "instructions": {
+                    "text": "The participant should have their right arm fully extended.",
+                    "illustration": [
+                        {
+                            "image": null,
+                            "filename": "forearmExtendedRight.png"
+                        }
+                    ]
+                }
+            },
+            "INNER_FOREARM_FLEXED_LEFT": {
+                "id": "INNER_FOREARM_FLEXED_LEFT",
+                "name": "Inner Forearm Flexed (L)",
+                "sampleTypes": {
+                    "BMODE": {
+                        "displayName": "T-Mode",
+                        "requiredNumber": 1,
+                        "paramId": "gamma_bmode"
+                    },
+                    "STL": {
+                        "displayName": "E-Mode",
+                        "requiredNumber": 3,
+                        "paramId": "gamma_stl_5p0_0p5_7p5"
+                    }
+                },
+                "notes": null,
+                "excluded": false,
+                "mapCoords": {
+                    "FOREARM_MAP": [
+                        83.25445941026574,
+                        36.59742828882295,
+                        82.19876228613032,
+                        40.80118694362018,
+                        78.23079723334547,
+                        40.20771513353116,
+                        75.31852930469603,
+                        39.36696340257171,
+                        72.66108481980342,
+                        38.67457962413452,
+                        73.97160538769567,
+                        32.54203758654797,
+                        76.55624317437204,
+                        33.38278931750742,
+                        79.54131780123771,
+                        34.91592482690405,
+                        81.39788860575173,
+                        35.90504451038576
+                    ]
+                },
+                "instructions": {
+                    "text": "The participant should have their left arm flexed with their elbow bent.",
+                    "illustration": [
+                        {
+                            "image": null,
+                            "filename": "forearmFlexedLeft.png"
+                        }
+                    ]
+                }
+            },
+            "INNER_FOREARM_EXTENDED_LEFT": {
+                "id": "INNER_FOREARM_EXTENDED_LEFT",
+                "name": "Inner Forearm Extended (L)",
+                "sampleTypes": {
+                    "BMODE": {
+                        "displayName": "T-Mode",
+                        "requiredNumber": 1,
+                        "paramId": "gamma_bmode"
+                    },
+                    "STL": {
+                        "displayName": "E-Mode",
+                        "requiredNumber": 3,
+                        "paramId": "gamma_stl_5p0_0p5_7p5"
+                    }
+                },
+                "notes": null,
+                "excluded": false,
+                "mapCoords": {
+                    "FOREARM_MAP": [
+                        85.83909719694212,
+                        79.4757665677547,
+                        83.69129959956317,
+                        83.18496538081108,
+                        81.39788860575173,
+                        81.30563798219585,
+                        79.46851110302148,
+                        79.4757665677547,
+                        77.0658900618857,
+                        77.44807121661721,
+                        79.1044776119403,
+                        71.56280909990109,
+                        80.5242082271569,
+                        73.24431256181998,
+                        82.27156898434656,
+                        75.42037586547973,
+                        84.05533309064434,
+                        77.54698318496538
+                    ]
+                },
+                "instructions": {
+                    "text": "The participant should have their left arm fully extended.",
+                    "illustration": [
+                        {
+                            "image": null,
+                            "filename": "forearmExtendedLeft.png"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "maps": {
+        "FOREARM_MAP": {
+            "name": "Forearm Map",
+            "image": null,
+            "filename": "forearm_map.png"
+        }
+    }
+}

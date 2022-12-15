@@ -1,0 +1,1403 @@
+{
+    "visitInfo": {
+        "organizationId": "DEMO_ORG",
+        "organizationName": "Demo Organization",
+        "protocolId": "ARM",
+        "protocolName": "Full Arm Assesment",
+        "visitId": "visit2",
+        "participantId": "P2",
+        "participantSecondaryId": "PATIENT_2",
+        "visitProgress": 0,
+        "softwareVersion": null,
+        "visitDate": "2022-12-10 16:54:40",
+        "visitHash": null,
+        "username": "Demo",
+        "visitSaved": false,
+        "visitNotes": "",
+        "allDataLocal": true,
+        "saveFolder": "MicroElastic/VisitData/visit2",
+        "saveFilename": "visit2.visit",
+        "wipFolder": "MicroElastic/Work In Progress"
+    },
+    "protocol": {
+        "protocolId": "ARM",
+        "protocolName": "Full Arm Assesment",
+        "examDef": {
+            "examDefId": "FOREARM",
+            "examDefName": "Forearm Assessment",
+            "modified": false,
+            "locationTemplate": {
+                "name": null,
+                "sampleTypes": {
+                    "BMODE": {
+                        "displayName": "T-Mode",
+                        "requiredNumber": 1,
+                        "paramId": "gamma_bmode"
+                    },
+                    "STL": {
+                        "displayName": "E-Mode",
+                        "requiredNumber": 3,
+                        "paramId": "gamma_stl_5p0_0p5_7p5"
+                    }
+                },
+                "notes": null,
+                "excluded": false,
+                "instructions": {
+                    "text": "",
+                    "illustration": []
+                },
+                "mapCoords": {}
+            },
+            "locations": {
+                "ids": [
+                    "INNER_FOREARM_FLEXED_RIGHT",
+                    "INNER_FOREARM_EXTENDED_RIGHT",
+                    "INNER_FOREARM_FLEXED_LEFT",
+                    "INNER_FOREARM_EXTENDED_LEFT"
+                ],
+                "entities": {
+                    "INNER_FOREARM_FLEXED_RIGHT": {
+                        "id": "INNER_FOREARM_FLEXED_RIGHT",
+                        "name": "Inner Forearm Flexed (R)",
+                        "sampleTypes": {
+                            "BMODE": {
+                                "displayName": "T-Mode",
+                                "requiredNumber": 1,
+                                "paramId": "gamma_bmode"
+                            },
+                            "STL": {
+                                "displayName": "E-Mode",
+                                "requiredNumber": 3,
+                                "paramId": "gamma_stl_5p0_0p5_7p5"
+                            }
+                        },
+                        "notes": null,
+                        "excluded": false,
+                        "instructions": {
+                            "text": "The participant should have their right arm flexed with their elbow bent.",
+                            "illustration": [
+                                {
+                                    "filename": "forearmFlexedRight.png"
+                                }
+                            ]
+                        },
+                        "mapCoords": {
+                            "FOREARM_MAP": [
+                                16.745540589734254,
+                                36.59742828882295,
+                                17.801237713869675,
+                                40.80118694362018,
+                                21.769202766654534,
+                                40.20771513353116,
+                                24.681470695303968,
+                                39.36696340257171,
+                                27.33891518019658,
+                                38.67457962413452,
+                                26.028394612304332,
+                                32.54203758654797,
+                                23.443756825627958,
+                                33.38278931750742,
+                                20.458682198762286,
+                                34.91592482690405,
+                                18.602111394248272,
+                                35.90504451038576
+                            ]
+                        }
+                    },
+                    "INNER_FOREARM_EXTENDED_RIGHT": {
+                        "id": "INNER_FOREARM_EXTENDED_RIGHT",
+                        "name": "Inner Forearm Extended (R)",
+                        "sampleTypes": {
+                            "BMODE": {
+                                "displayName": "T-Mode",
+                                "requiredNumber": 1,
+                                "paramId": "gamma_bmode"
+                            },
+                            "STL": {
+                                "displayName": "E-Mode",
+                                "requiredNumber": 3,
+                                "paramId": "gamma_stl_5p0_0p5_7p5"
+                            }
+                        },
+                        "notes": null,
+                        "excluded": false,
+                        "mapCoords": {
+                            "FOREARM_MAP": [
+                                14.160902803057882,
+                                78.98120672601385,
+                                16.30870040043684,
+                                82.69040553907023,
+                                18.602111394248272,
+                                80.811078140455,
+                                20.531488896978523,
+                                78.98120672601385,
+                                22.934109938114307,
+                                76.95351137487636,
+                                20.895522388059703,
+                                71.06824925816024,
+                                19.475791772843102,
+                                72.74975272007913,
+                                17.72843101565344,
+                                74.92581602373888,
+                                15.94466690935566,
+                                77.05242334322453
+                            ]
+                        },
+                        "instructions": {
+                            "text": "The participant should have their right arm fully extended.",
+                            "illustration": [
+                                {
+                                    "filename": "forearmExtendedRight.png"
+                                }
+                            ]
+                        }
+                    },
+                    "INNER_FOREARM_FLEXED_LEFT": {
+                        "id": "INNER_FOREARM_FLEXED_LEFT",
+                        "name": "Inner Forearm Flexed (L)",
+                        "sampleTypes": {
+                            "BMODE": {
+                                "displayName": "T-Mode",
+                                "requiredNumber": 1,
+                                "paramId": "gamma_bmode"
+                            },
+                            "STL": {
+                                "displayName": "E-Mode",
+                                "requiredNumber": 3,
+                                "paramId": "gamma_stl_5p0_0p5_7p5"
+                            }
+                        },
+                        "notes": null,
+                        "excluded": false,
+                        "mapCoords": {
+                            "FOREARM_MAP": [
+                                83.25445941026574,
+                                36.59742828882295,
+                                82.19876228613032,
+                                40.80118694362018,
+                                78.23079723334547,
+                                40.20771513353116,
+                                75.31852930469603,
+                                39.36696340257171,
+                                72.66108481980342,
+                                38.67457962413452,
+                                73.97160538769567,
+                                32.54203758654797,
+                                76.55624317437204,
+                                33.38278931750742,
+                                79.54131780123771,
+                                34.91592482690405,
+                                81.39788860575173,
+                                35.90504451038576
+                            ]
+                        },
+                        "instructions": {
+                            "text": "The participant should have their left arm flexed with their elbow bent.",
+                            "illustration": [
+                                {
+                                    "filename": "forearmFlexedLeft.png"
+                                }
+                            ]
+                        }
+                    },
+                    "INNER_FOREARM_EXTENDED_LEFT": {
+                        "id": "INNER_FOREARM_EXTENDED_LEFT",
+                        "name": "Inner Forearm Extended (L)",
+                        "sampleTypes": {
+                            "BMODE": {
+                                "displayName": "T-Mode",
+                                "requiredNumber": 1,
+                                "paramId": "gamma_bmode"
+                            },
+                            "STL": {
+                                "displayName": "E-Mode",
+                                "requiredNumber": 3,
+                                "paramId": "gamma_stl_5p0_0p5_7p5"
+                            }
+                        },
+                        "notes": null,
+                        "excluded": false,
+                        "mapCoords": {
+                            "FOREARM_MAP": [
+                                85.83909719694212,
+                                79.4757665677547,
+                                83.69129959956317,
+                                83.18496538081108,
+                                81.39788860575173,
+                                81.30563798219585,
+                                79.46851110302148,
+                                79.4757665677547,
+                                77.0658900618857,
+                                77.44807121661721,
+                                79.1044776119403,
+                                71.56280909990109,
+                                80.5242082271569,
+                                73.24431256181998,
+                                82.27156898434656,
+                                75.42037586547973,
+                                84.05533309064434,
+                                77.54698318496538
+                            ]
+                        },
+                        "instructions": {
+                            "text": "The participant should have their left arm fully extended.",
+                            "illustration": [
+                                {
+                                    "filename": "forearmExtendedLeft.png"
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "maps": {
+                "FOREARM_MAP": {
+                    "name": "Forearm Map",
+                    "image": "/static/media/forearm_map.ee529e3567421707b3d6.png",
+                    "filename": "forearm_map.png"
+                }
+            }
+        },
+        "formDef": {
+            "ids": [
+                "ARM"
+            ],
+            "entities": {
+                "ARM": {
+                    "frequency": "PER_VISIT",
+                    "id": "ARM",
+                    "name": "Forearm",
+                    "form": {
+                        "0": {
+                            "Variable / Field Name": "right_arm_length",
+                            "Form Name": "Arm",
+                            "Section Header": "Arm Length",
+                            "Field Type": "slider",
+                            "Field Label": "Right Forearm Length",
+                            "Choices, Calculations, OR Slider Labels": "1|50|100",
+                            "Field Note": "cm",
+                            "Text Validation Type OR Show Slider Number": "",
+                            "Text Validation Min": "",
+                            "Text Validation Max,Identifier?": "",
+                            "Branching Logic (Show field only if...)": "",
+                            "Required Field?": "y",
+                            "Custom Alignment": "",
+                            "Question Number (surveys only)": "",
+                            "Matrix Group Name": ""
+                        },
+                        "1": {
+                            "Variable / Field Name": "left_arm_length",
+                            "Form Name": "Arm",
+                            "Section Header": "",
+                            "Field Type": "slider",
+                            "Field Label": "Left Forearm Length",
+                            "Choices, Calculations, OR Slider Labels": "1|50|100",
+                            "Field Note": "cm",
+                            "Text Validation Type OR Show Slider Number": "",
+                            "Text Validation Min": "",
+                            "Text Validation Max,Identifier?": "",
+                            "Branching Logic (Show field only if...)": "",
+                            "Required Field?": "y",
+                            "Custom Alignment": "",
+                            "Question Number (surveys only)": "",
+                            "Matrix Group Name": ""
+                        },
+                        "2": {
+                            "Variable / Field Name": "swelling",
+                            "Form Name": "Arm",
+                            "Section Header": "Arm Condition",
+                            "Field Type": "dropdown",
+                            "Field Label": "Does the patient have any swelling on their arms?",
+                            "Choices, Calculations, OR Slider Labels": "No swelling on either arm|Swelling on the right arm|Swelling on the left arm|Swelling on both arms",
+                            "Field Note": "",
+                            "Text Validation Type OR Show Slider Number": "",
+                            "Text Validation Min": "",
+                            "Text Validation Max,Identifier?": "",
+                            "Branching Logic (Show field only if...)": "",
+                            "Required Field?": "y",
+                            "Custom Alignment": "",
+                            "Question Number (surveys only)": "",
+                            "Matrix Group Name": ""
+                        },
+                        "3": {
+                            "Variable / Field Name": "mobility",
+                            "Form Name": "Arm",
+                            "Section Header": "",
+                            "Field Type": "yesno",
+                            "Field Label": "Does the patient have any trouble with arm mobility?",
+                            "Choices, Calculations, OR Slider Labels": "",
+                            "Field Note": "",
+                            "Text Validation Type OR Show Slider Number": "",
+                            "Text Validation Min": "",
+                            "Text Validation Max,Identifier?": "",
+                            "Branching Logic (Show field only if...)": "",
+                            "Required Field?": "y",
+                            "Custom Alignment": "",
+                            "Question Number (surveys only)": "",
+                            "Matrix Group Name": ""
+                        },
+                        "4": {
+                            "Variable / Field Name": "other",
+                            "Form Name": "Arm",
+                            "Section Header": "",
+                            "Field Type": "descriptive",
+                            "Field Label": "Any additional observations",
+                            "Choices, Calculations, OR Slider Labels": "",
+                            "Field Note": "Optional",
+                            "Text Validation Type OR Show Slider Number": "",
+                            "Text Validation Min": "",
+                            "Text Validation Max,Identifier?": "",
+                            "Branching Logic (Show field only if...)": "",
+                            "Required Field?": "n",
+                            "Custom Alignment": "",
+                            "Question Number (surveys only)": "",
+                            "Matrix Group Name": ""
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "locations": {
+        "ids": [
+            "INNER_FOREARM_FLEXED_RIGHT",
+            "INNER_FOREARM_EXTENDED_RIGHT",
+            "INNER_FOREARM_FLEXED_LEFT",
+            "INNER_FOREARM_EXTENDED_LEFT"
+        ],
+        "entities": {
+            "INNER_FOREARM_FLEXED_RIGHT": {
+                "id": "INNER_FOREARM_FLEXED_RIGHT",
+                "samplesAcquiredBySampleType": {
+                    "BMODE": 1,
+                    "STL": 3
+                },
+                "samplesExcludedBySampleType": {
+                    "BMODE": 0,
+                    "STL": 0
+                },
+                "alertSample": {
+                    "status": false,
+                    "ids": [],
+                    "anyIncludedInVisit": false
+                },
+                "shearwaveSpeed": {
+                    "value": 2.970392156862745,
+                    "standardDev": 5.944576449000899
+                },
+                "thickness": {
+                    "value": 1.31,
+                    "standardDev": 0
+                },
+                "thicknessRefSampleId": null,
+                "sampleIds": [
+                    "fP6mh_cOucLPYP1zkpckU",
+                    "1Gkk_-g0tZoLFrTPvZg3v",
+                    "vJAgMOA2AqAB9Txud4u3L",
+                    "QH4zm8qB6GmM04Vcz27xX"
+                ]
+            },
+            "INNER_FOREARM_EXTENDED_RIGHT": {
+                "id": "INNER_FOREARM_EXTENDED_RIGHT",
+                "samplesAcquiredBySampleType": {
+                    "BMODE": 1,
+                    "STL": 3
+                },
+                "samplesExcludedBySampleType": {
+                    "BMODE": 0,
+                    "STL": 0
+                },
+                "alertSample": {
+                    "status": false,
+                    "ids": [],
+                    "anyIncludedInVisit": false
+                },
+                "shearwaveSpeed": {
+                    "value": 3.24,
+                    "standardDev": 6.48
+                },
+                "thickness": {
+                    "value": 1.75,
+                    "standardDev": 0
+                },
+                "thicknessRefSampleId": null,
+                "sampleIds": [
+                    "b0IpLS8RkQgGNjkQ4y2II",
+                    "3uLjpt9kFy6JnYx_1kKbI",
+                    "e-u6vWyER80vwG-uoJcj7",
+                    "ghidyJYLw7VpvOuzJo4vp"
+                ]
+            },
+            "INNER_FOREARM_FLEXED_LEFT": {
+                "id": "INNER_FOREARM_FLEXED_LEFT",
+                "samplesAcquiredBySampleType": {
+                    "BMODE": 1,
+                    "STL": 3
+                },
+                "samplesExcludedBySampleType": {
+                    "BMODE": 0,
+                    "STL": 0
+                },
+                "alertSample": {
+                    "status": false,
+                    "ids": [],
+                    "anyIncludedInVisit": false
+                },
+                "shearwaveSpeed": {
+                    "value": 3.24,
+                    "standardDev": 6.48
+                },
+                "thickness": {
+                    "value": 1.31,
+                    "standardDev": 0
+                },
+                "thicknessRefSampleId": null,
+                "sampleIds": [
+                    "VWysWtLIacYCRRf90lS4y",
+                    "y0daicTxvGdj12gs-XQmy",
+                    "Zs07QZIaxrRsCtYTVqMhJ",
+                    "hwPQnmqd2Vjw86nb9kNu-"
+                ]
+            },
+            "INNER_FOREARM_EXTENDED_LEFT": {
+                "id": "INNER_FOREARM_EXTENDED_LEFT",
+                "samplesAcquiredBySampleType": {
+                    "BMODE": 1,
+                    "STL": 3
+                },
+                "samplesExcludedBySampleType": {
+                    "BMODE": 0,
+                    "STL": 0
+                },
+                "alertSample": {
+                    "status": false,
+                    "ids": [],
+                    "anyIncludedInVisit": false
+                },
+                "shearwaveSpeed": {
+                    "value": 2.4396078431372548,
+                    "standardDev": 4.912029533778793
+                },
+                "thickness": {
+                    "value": 0.63,
+                    "standardDev": 0
+                },
+                "thicknessRefSampleId": null,
+                "sampleIds": [
+                    "JktkMRLfW9fkD-dcCJRE7",
+                    "8T0wZce1lp-GGC377bg5s",
+                    "9suVHDJ8U7LMq_FGMbGbF",
+                    "Pdelzpsmo3k6lkrTtXEdr"
+                ]
+            }
+        }
+    },
+    "samples": {
+        "ids": [
+            "fP6mh_cOucLPYP1zkpckU",
+            "1Gkk_-g0tZoLFrTPvZg3v",
+            "vJAgMOA2AqAB9Txud4u3L",
+            "QH4zm8qB6GmM04Vcz27xX",
+            "b0IpLS8RkQgGNjkQ4y2II",
+            "3uLjpt9kFy6JnYx_1kKbI",
+            "e-u6vWyER80vwG-uoJcj7",
+            "ghidyJYLw7VpvOuzJo4vp",
+            "VWysWtLIacYCRRf90lS4y",
+            "y0daicTxvGdj12gs-XQmy",
+            "Zs07QZIaxrRsCtYTVqMhJ",
+            "hwPQnmqd2Vjw86nb9kNu-",
+            "JktkMRLfW9fkD-dcCJRE7",
+            "8T0wZce1lp-GGC377bg5s",
+            "9suVHDJ8U7LMq_FGMbGbF",
+            "Pdelzpsmo3k6lkrTtXEdr"
+        ],
+        "entities": {
+            "fP6mh_cOucLPYP1zkpckU": {
+                "id": "fP6mh_cOucLPYP1zkpckU",
+                "sampleType": "BMODE",
+                "processing": false,
+                "valueDisplay": true,
+                "selectable": true,
+                "dataSaved": true,
+                "locationId": "INNER_FOREARM_FLEXED_RIGHT",
+                "alert": {
+                    "status": false,
+                    "message": ""
+                },
+                "excluded": false,
+                "notes": null,
+                "plot": {
+                    "image": "/static/media/bmode_-40_0.4a6bdb083d93803c8ef1.jpg",
+                    "xAxis": {
+                        "range": [
+                            0,
+                            4.99
+                        ],
+                        "label": "T",
+                        "unit": "s"
+                    },
+                    "yAxis": {
+                        "range": [
+                            -1,
+                            5
+                        ],
+                        "label": "Depth",
+                        "unit": "mm"
+                    },
+                    "colorBar": {
+                        "range": [
+                            -40,
+                            0
+                        ],
+                        "label": "Amplitude",
+                        "unit": "dB"
+                    }
+                },
+                "thickness": 1.31,
+                "autoDetectedTopSurface": 0,
+                "autoDetectedThickness": 1.31,
+                "autoDetectedBottomSurface": 1.31,
+                "topSurface": 0,
+                "bottomSurface": 1.31,
+                "setToAutoDetectedThickness": true
+            },
+            "1Gkk_-g0tZoLFrTPvZg3v": {
+                "id": "1Gkk_-g0tZoLFrTPvZg3v",
+                "sampleType": "STL",
+                "processing": false,
+                "valueDisplay": true,
+                "selectable": true,
+                "dataSaved": true,
+                "locationId": "INNER_FOREARM_FLEXED_RIGHT",
+                "alert": {
+                    "status": false,
+                    "message": ""
+                },
+                "excluded": false,
+                "notes": null,
+                "plot": {
+                    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAZABkAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCADPAAYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5/ooooAKKKKACirJspg23bRTsyeZdz0Z9DUTfd7UV0khXfniivUVOJ859YmU2lJopoX5RRTVyLItGPCiilLgoD70VaM3e5WRt0Y+tFV4ZhsorPmOr2epSh3klR6ZorWj0w7unaiseWR2pwOlRYwu7j0ormZtaEdtnd/Hj9KK0c9TNU3bU4u6umaMru43A/pRUTwkJ83tRXEmz0ZRitzVMSMmeo/8A10UlnOAGBwQMDmipb5dC+Xm1M8SBC5U9wKKzzcDyyfVzRWZqZDTsFAz/ABMf1op725LjHPH9aKLAf//Z",
+                    "xAxis": {
+                        "range": [
+                            5,
+                            7.5
+                        ],
+                        "label": "rfoc",
+                        "unit": "mm"
+                    },
+                    "yAxis": {
+                        "range": [
+                            -2,
+                            5.93
+                        ],
+                        "label": "Depth",
+                        "unit": "mm"
+                    },
+                    "colorBar": {
+                        "xAxis": {
+                            "range": [
+                                -45,
+                                0
+                            ],
+                            "label": "Amplitude",
+                            "unit": "dB"
+                        },
+                        "yAxis": {
+                            "range": [
+                                0,
+                                12
+                            ],
+                            "label": "SWS",
+                            "unit": "m/s"
+                        }
+                    }
+                },
+                "shearwaveSpeed": 2.9499999999999993,
+                "percentSliceWidth": 50,
+                "dz": 1.31,
+                "z": 2.425
+            },
+            "vJAgMOA2AqAB9Txud4u3L": {
+                "id": "vJAgMOA2AqAB9Txud4u3L",
+                "sampleType": "STL",
+                "processing": false,
+                "valueDisplay": true,
+                "selectable": true,
+                "dataSaved": true,
+                "locationId": "INNER_FOREARM_FLEXED_RIGHT",
+                "alert": {
+                    "status": false,
+                    "message": ""
+                },
+                "excluded": false,
+                "notes": null,
+                "plot": {
+                    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAZABkAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCADPAAYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5/ooooAKKKKACirJspg23bRTsyeZdz0Z9DUTfd7UV0khXfniivUVOJ859YmU2lJopoX5RRTVyLItGPCiilLgoD70VaM3e5WRt0Y+tFV4ZhsorPmOr2epSh3klR6ZorWj0w7unaiseWR2pwOlRYwu7j0ormZtaEdtnd/Hj9KK0c9TNU3bU4u6umaMru43A/pRUTwkJ83tRXEmz0ZRitzVMSMmeo/8A10UlnOAGBwQMDmipb5dC+Xm1M8SBC5U9wKKzzcDyyfVzRWZqZDTsFAz/ABMf1op725LjHPH9aKLAf//Z",
+                    "xAxis": {
+                        "range": [
+                            5,
+                            7.5
+                        ],
+                        "label": "rfoc",
+                        "unit": "mm"
+                    },
+                    "yAxis": {
+                        "range": [
+                            -2,
+                            5.93
+                        ],
+                        "label": "Depth",
+                        "unit": "mm"
+                    },
+                    "colorBar": {
+                        "xAxis": {
+                            "range": [
+                                -45,
+                                0
+                            ],
+                            "label": "Amplitude",
+                            "unit": "dB"
+                        },
+                        "yAxis": {
+                            "range": [
+                                0,
+                                12
+                            ],
+                            "label": "SWS",
+                            "unit": "m/s"
+                        }
+                    }
+                },
+                "shearwaveSpeed": 2.721176470588235,
+                "percentSliceWidth": 50,
+                "dz": 1.31,
+                "z": 3.0250000000000004
+            },
+            "QH4zm8qB6GmM04Vcz27xX": {
+                "id": "QH4zm8qB6GmM04Vcz27xX",
+                "sampleType": "STL",
+                "processing": false,
+                "valueDisplay": true,
+                "selectable": true,
+                "dataSaved": true,
+                "locationId": "INNER_FOREARM_FLEXED_RIGHT",
+                "alert": {
+                    "status": false,
+                    "message": ""
+                },
+                "excluded": false,
+                "notes": null,
+                "plot": {
+                    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAZABkAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCADPAAYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5/ooooAKKKKACirJspg23bRTsyeZdz0Z9DUTfd7UV0khXfniivUVOJ859YmU2lJopoX5RRTVyLItGPCiilLgoD70VaM3e5WRt0Y+tFV4ZhsorPmOr2epSh3klR6ZorWj0w7unaiseWR2pwOlRYwu7j0ormZtaEdtnd/Hj9KK0c9TNU3bU4u6umaMru43A/pRUTwkJ83tRXEmz0ZRitzVMSMmeo/8A10UlnOAGBwQMDmipb5dC+Xm1M8SBC5U9wKKzzcDyyfVzRWZqZDTsFAz/ABMf1op725LjHPH9aKLAf//Z",
+                    "xAxis": {
+                        "range": [
+                            5,
+                            7.5
+                        ],
+                        "label": "rfoc",
+                        "unit": "mm"
+                    },
+                    "yAxis": {
+                        "range": [
+                            -2,
+                            5.93
+                        ],
+                        "label": "Depth",
+                        "unit": "mm"
+                    },
+                    "colorBar": {
+                        "xAxis": {
+                            "range": [
+                                -45,
+                                0
+                            ],
+                            "label": "Amplitude",
+                            "unit": "dB"
+                        },
+                        "yAxis": {
+                            "range": [
+                                0,
+                                12
+                            ],
+                            "label": "SWS",
+                            "unit": "m/s"
+                        }
+                    }
+                },
+                "shearwaveSpeed": 2.7211764705882344,
+                "percentSliceWidth": 50,
+                "dz": 1.31,
+                "z": 3.335
+            },
+            "b0IpLS8RkQgGNjkQ4y2II": {
+                "id": "b0IpLS8RkQgGNjkQ4y2II",
+                "sampleType": "BMODE",
+                "processing": false,
+                "valueDisplay": true,
+                "selectable": true,
+                "dataSaved": true,
+                "locationId": "INNER_FOREARM_EXTENDED_RIGHT",
+                "alert": {
+                    "status": false,
+                    "message": ""
+                },
+                "excluded": false,
+                "notes": null,
+                "plot": {
+                    "image": "/static/media/bmode_-40_0.4a6bdb083d93803c8ef1.jpg",
+                    "xAxis": {
+                        "range": [
+                            0,
+                            4.99
+                        ],
+                        "label": "T",
+                        "unit": "s"
+                    },
+                    "yAxis": {
+                        "range": [
+                            -1,
+                            5
+                        ],
+                        "label": "Depth",
+                        "unit": "mm"
+                    },
+                    "colorBar": {
+                        "range": [
+                            -40,
+                            0
+                        ],
+                        "label": "Amplitude",
+                        "unit": "dB"
+                    }
+                },
+                "thickness": 1.75,
+                "autoDetectedTopSurface": 0,
+                "autoDetectedThickness": 1.31,
+                "autoDetectedBottomSurface": 1.31,
+                "topSurface": 0.83,
+                "bottomSurface": 2.58,
+                "setToAutoDetectedThickness": false
+            },
+            "3uLjpt9kFy6JnYx_1kKbI": {
+                "id": "3uLjpt9kFy6JnYx_1kKbI",
+                "sampleType": "STL",
+                "processing": false,
+                "valueDisplay": true,
+                "selectable": true,
+                "dataSaved": true,
+                "locationId": "INNER_FOREARM_EXTENDED_RIGHT",
+                "alert": {
+                    "status": false,
+                    "message": ""
+                },
+                "excluded": false,
+                "notes": null,
+                "plot": {
+                    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAZABkAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCADPAAYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5/ooooAKKKKACirJspg23bRTsyeZdz0Z9DUTfd7UV0khXfniivUVOJ859YmU2lJopoX5RRTVyLItGPCiilLgoD70VaM3e5WRt0Y+tFV4ZhsorPmOr2epSh3klR6ZorWj0w7unaiseWR2pwOlRYwu7j0ormZtaEdtnd/Hj9KK0c9TNU3bU4u6umaMru43A/pRUTwkJ83tRXEmz0ZRitzVMSMmeo/8A10UlnOAGBwQMDmipb5dC+Xm1M8SBC5U9wKKzzcDyyfVzRWZqZDTsFAz/ABMf1op725LjHPH9aKLAf//Z",
+                    "xAxis": {
+                        "range": [
+                            5,
+                            7.5
+                        ],
+                        "label": "rfoc",
+                        "unit": "mm"
+                    },
+                    "yAxis": {
+                        "range": [
+                            -2,
+                            5.93
+                        ],
+                        "label": "Depth",
+                        "unit": "mm"
+                    },
+                    "colorBar": {
+                        "xAxis": {
+                            "range": [
+                                -45,
+                                0
+                            ],
+                            "label": "Amplitude",
+                            "unit": "dB"
+                        },
+                        "yAxis": {
+                            "range": [
+                                0,
+                                12
+                            ],
+                            "label": "SWS",
+                            "unit": "m/s"
+                        }
+                    }
+                },
+                "shearwaveSpeed": 3.24,
+                "percentSliceWidth": 50,
+                "dz": 1.31,
+                "z": 0.66
+            },
+            "e-u6vWyER80vwG-uoJcj7": {
+                "id": "e-u6vWyER80vwG-uoJcj7",
+                "sampleType": "STL",
+                "processing": false,
+                "valueDisplay": true,
+                "selectable": true,
+                "dataSaved": true,
+                "locationId": "INNER_FOREARM_EXTENDED_RIGHT",
+                "alert": {
+                    "status": false,
+                    "message": ""
+                },
+                "excluded": false,
+                "notes": null,
+                "plot": {
+                    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAZABkAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCADPAAYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5/ooooAKKKKACirJspg23bRTsyeZdz0Z9DUTfd7UV0khXfniivUVOJ859YmU2lJopoX5RRTVyLItGPCiilLgoD70VaM3e5WRt0Y+tFV4ZhsorPmOr2epSh3klR6ZorWj0w7unaiseWR2pwOlRYwu7j0ormZtaEdtnd/Hj9KK0c9TNU3bU4u6umaMru43A/pRUTwkJ83tRXEmz0ZRitzVMSMmeo/8A10UlnOAGBwQMDmipb5dC+Xm1M8SBC5U9wKKzzcDyyfVzRWZqZDTsFAz/ABMf1op725LjHPH9aKLAf//Z",
+                    "xAxis": {
+                        "range": [
+                            5,
+                            7.5
+                        ],
+                        "label": "rfoc",
+                        "unit": "mm"
+                    },
+                    "yAxis": {
+                        "range": [
+                            -2,
+                            5.93
+                        ],
+                        "label": "Depth",
+                        "unit": "mm"
+                    },
+                    "colorBar": {
+                        "xAxis": {
+                            "range": [
+                                -45,
+                                0
+                            ],
+                            "label": "Amplitude",
+                            "unit": "dB"
+                        },
+                        "yAxis": {
+                            "range": [
+                                0,
+                                12
+                            ],
+                            "label": "SWS",
+                            "unit": "m/s"
+                        }
+                    }
+                },
+                "shearwaveSpeed": 3.24,
+                "percentSliceWidth": 50,
+                "dz": 1.31,
+                "z": 0.66
+            },
+            "ghidyJYLw7VpvOuzJo4vp": {
+                "id": "ghidyJYLw7VpvOuzJo4vp",
+                "sampleType": "STL",
+                "processing": false,
+                "valueDisplay": true,
+                "selectable": true,
+                "dataSaved": true,
+                "locationId": "INNER_FOREARM_EXTENDED_RIGHT",
+                "alert": {
+                    "status": false,
+                    "message": ""
+                },
+                "excluded": false,
+                "notes": null,
+                "plot": {
+                    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAZABkAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCADPAAYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5/ooooAKKKKACirJspg23bRTsyeZdz0Z9DUTfd7UV0khXfniivUVOJ859YmU2lJopoX5RRTVyLItGPCiilLgoD70VaM3e5WRt0Y+tFV4ZhsorPmOr2epSh3klR6ZorWj0w7unaiseWR2pwOlRYwu7j0ormZtaEdtnd/Hj9KK0c9TNU3bU4u6umaMru43A/pRUTwkJ83tRXEmz0ZRitzVMSMmeo/8A10UlnOAGBwQMDmipb5dC+Xm1M8SBC5U9wKKzzcDyyfVzRWZqZDTsFAz/ABMf1op725LjHPH9aKLAf//Z",
+                    "xAxis": {
+                        "range": [
+                            5,
+                            7.5
+                        ],
+                        "label": "rfoc",
+                        "unit": "mm"
+                    },
+                    "yAxis": {
+                        "range": [
+                            -2,
+                            5.93
+                        ],
+                        "label": "Depth",
+                        "unit": "mm"
+                    },
+                    "colorBar": {
+                        "xAxis": {
+                            "range": [
+                                -45,
+                                0
+                            ],
+                            "label": "Amplitude",
+                            "unit": "dB"
+                        },
+                        "yAxis": {
+                            "range": [
+                                0,
+                                12
+                            ],
+                            "label": "SWS",
+                            "unit": "m/s"
+                        }
+                    }
+                },
+                "shearwaveSpeed": 3.24,
+                "percentSliceWidth": 50,
+                "dz": 1.31,
+                "z": 0.66
+            },
+            "VWysWtLIacYCRRf90lS4y": {
+                "id": "VWysWtLIacYCRRf90lS4y",
+                "sampleType": "BMODE",
+                "processing": false,
+                "valueDisplay": true,
+                "selectable": true,
+                "dataSaved": true,
+                "locationId": "INNER_FOREARM_FLEXED_LEFT",
+                "alert": {
+                    "status": false,
+                    "message": ""
+                },
+                "excluded": false,
+                "notes": null,
+                "plot": {
+                    "image": "/static/media/bmode_-40_0.4a6bdb083d93803c8ef1.jpg",
+                    "xAxis": {
+                        "range": [
+                            0,
+                            4.99
+                        ],
+                        "label": "T",
+                        "unit": "s"
+                    },
+                    "yAxis": {
+                        "range": [
+                            -1,
+                            5
+                        ],
+                        "label": "Depth",
+                        "unit": "mm"
+                    },
+                    "colorBar": {
+                        "range": [
+                            -40,
+                            0
+                        ],
+                        "label": "Amplitude",
+                        "unit": "dB"
+                    }
+                },
+                "thickness": 1.31,
+                "autoDetectedTopSurface": 0,
+                "autoDetectedThickness": 1.31,
+                "autoDetectedBottomSurface": 1.31,
+                "topSurface": 0,
+                "bottomSurface": 1.31,
+                "setToAutoDetectedThickness": true
+            },
+            "y0daicTxvGdj12gs-XQmy": {
+                "id": "y0daicTxvGdj12gs-XQmy",
+                "sampleType": "STL",
+                "processing": false,
+                "valueDisplay": true,
+                "selectable": true,
+                "dataSaved": true,
+                "locationId": "INNER_FOREARM_FLEXED_LEFT",
+                "alert": {
+                    "status": false,
+                    "message": ""
+                },
+                "excluded": false,
+                "notes": null,
+                "plot": {
+                    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAZABkAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCADPAAYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5/ooooAKKKKACirJspg23bRTsyeZdz0Z9DUTfd7UV0khXfniivUVOJ859YmU2lJopoX5RRTVyLItGPCiilLgoD70VaM3e5WRt0Y+tFV4ZhsorPmOr2epSh3klR6ZorWj0w7unaiseWR2pwOlRYwu7j0ormZtaEdtnd/Hj9KK0c9TNU3bU4u6umaMru43A/pRUTwkJ83tRXEmz0ZRitzVMSMmeo/8A10UlnOAGBwQMDmipb5dC+Xm1M8SBC5U9wKKzzcDyyfVzRWZqZDTsFAz/ABMf1op725LjHPH9aKLAf//Z",
+                    "xAxis": {
+                        "range": [
+                            5,
+                            7.5
+                        ],
+                        "label": "rfoc",
+                        "unit": "mm"
+                    },
+                    "yAxis": {
+                        "range": [
+                            -2,
+                            5.93
+                        ],
+                        "label": "Depth",
+                        "unit": "mm"
+                    },
+                    "colorBar": {
+                        "xAxis": {
+                            "range": [
+                                -45,
+                                0
+                            ],
+                            "label": "Amplitude",
+                            "unit": "dB"
+                        },
+                        "yAxis": {
+                            "range": [
+                                0,
+                                12
+                            ],
+                            "label": "SWS",
+                            "unit": "m/s"
+                        }
+                    }
+                },
+                "shearwaveSpeed": 3.24,
+                "percentSliceWidth": 50,
+                "dz": 1.31,
+                "z": 0.66
+            },
+            "Zs07QZIaxrRsCtYTVqMhJ": {
+                "id": "Zs07QZIaxrRsCtYTVqMhJ",
+                "sampleType": "STL",
+                "processing": false,
+                "valueDisplay": true,
+                "selectable": true,
+                "dataSaved": true,
+                "locationId": "INNER_FOREARM_FLEXED_LEFT",
+                "alert": {
+                    "status": false,
+                    "message": ""
+                },
+                "excluded": false,
+                "notes": null,
+                "plot": {
+                    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAZABkAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCADPAAYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5/ooooAKKKKACirJspg23bRTsyeZdz0Z9DUTfd7UV0khXfniivUVOJ859YmU2lJopoX5RRTVyLItGPCiilLgoD70VaM3e5WRt0Y+tFV4ZhsorPmOr2epSh3klR6ZorWj0w7unaiseWR2pwOlRYwu7j0ormZtaEdtnd/Hj9KK0c9TNU3bU4u6umaMru43A/pRUTwkJ83tRXEmz0ZRitzVMSMmeo/8A10UlnOAGBwQMDmipb5dC+Xm1M8SBC5U9wKKzzcDyyfVzRWZqZDTsFAz/ABMf1op725LjHPH9aKLAf//Z",
+                    "xAxis": {
+                        "range": [
+                            5,
+                            7.5
+                        ],
+                        "label": "rfoc",
+                        "unit": "mm"
+                    },
+                    "yAxis": {
+                        "range": [
+                            -2,
+                            5.93
+                        ],
+                        "label": "Depth",
+                        "unit": "mm"
+                    },
+                    "colorBar": {
+                        "xAxis": {
+                            "range": [
+                                -45,
+                                0
+                            ],
+                            "label": "Amplitude",
+                            "unit": "dB"
+                        },
+                        "yAxis": {
+                            "range": [
+                                0,
+                                12
+                            ],
+                            "label": "SWS",
+                            "unit": "m/s"
+                        }
+                    }
+                },
+                "shearwaveSpeed": 3.24,
+                "percentSliceWidth": 50,
+                "dz": 1.31,
+                "z": 0.66
+            },
+            "hwPQnmqd2Vjw86nb9kNu-": {
+                "id": "hwPQnmqd2Vjw86nb9kNu-",
+                "sampleType": "STL",
+                "processing": false,
+                "valueDisplay": true,
+                "selectable": true,
+                "dataSaved": true,
+                "locationId": "INNER_FOREARM_FLEXED_LEFT",
+                "alert": {
+                    "status": false,
+                    "message": ""
+                },
+                "excluded": false,
+                "notes": null,
+                "plot": {
+                    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAZABkAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCADPAAYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5/ooooAKKKKACirJspg23bRTsyeZdz0Z9DUTfd7UV0khXfniivUVOJ859YmU2lJopoX5RRTVyLItGPCiilLgoD70VaM3e5WRt0Y+tFV4ZhsorPmOr2epSh3klR6ZorWj0w7unaiseWR2pwOlRYwu7j0ormZtaEdtnd/Hj9KK0c9TNU3bU4u6umaMru43A/pRUTwkJ83tRXEmz0ZRitzVMSMmeo/8A10UlnOAGBwQMDmipb5dC+Xm1M8SBC5U9wKKzzcDyyfVzRWZqZDTsFAz/ABMf1op725LjHPH9aKLAf//Z",
+                    "xAxis": {
+                        "range": [
+                            5,
+                            7.5
+                        ],
+                        "label": "rfoc",
+                        "unit": "mm"
+                    },
+                    "yAxis": {
+                        "range": [
+                            -2,
+                            5.93
+                        ],
+                        "label": "Depth",
+                        "unit": "mm"
+                    },
+                    "colorBar": {
+                        "xAxis": {
+                            "range": [
+                                -45,
+                                0
+                            ],
+                            "label": "Amplitude",
+                            "unit": "dB"
+                        },
+                        "yAxis": {
+                            "range": [
+                                0,
+                                12
+                            ],
+                            "label": "SWS",
+                            "unit": "m/s"
+                        }
+                    }
+                },
+                "shearwaveSpeed": 3.24,
+                "percentSliceWidth": 50,
+                "dz": 1.31,
+                "z": 0.66
+            },
+            "JktkMRLfW9fkD-dcCJRE7": {
+                "id": "JktkMRLfW9fkD-dcCJRE7",
+                "sampleType": "BMODE",
+                "processing": false,
+                "valueDisplay": true,
+                "selectable": true,
+                "dataSaved": true,
+                "locationId": "INNER_FOREARM_EXTENDED_LEFT",
+                "alert": {
+                    "status": false,
+                    "message": ""
+                },
+                "excluded": false,
+                "notes": null,
+                "plot": {
+                    "image": "/static/media/bmode_-40_0.4a6bdb083d93803c8ef1.jpg",
+                    "xAxis": {
+                        "range": [
+                            0,
+                            4.99
+                        ],
+                        "label": "T",
+                        "unit": "s"
+                    },
+                    "yAxis": {
+                        "range": [
+                            -1,
+                            5
+                        ],
+                        "label": "Depth",
+                        "unit": "mm"
+                    },
+                    "colorBar": {
+                        "range": [
+                            -40,
+                            0
+                        ],
+                        "label": "Amplitude",
+                        "unit": "dB"
+                    }
+                },
+                "thickness": 0.63,
+                "autoDetectedTopSurface": 0,
+                "autoDetectedThickness": 1.31,
+                "autoDetectedBottomSurface": 1.31,
+                "topSurface": 0,
+                "bottomSurface": 0.63,
+                "setToAutoDetectedThickness": false
+            },
+            "8T0wZce1lp-GGC377bg5s": {
+                "id": "8T0wZce1lp-GGC377bg5s",
+                "sampleType": "STL",
+                "processing": false,
+                "valueDisplay": true,
+                "selectable": true,
+                "dataSaved": true,
+                "locationId": "INNER_FOREARM_EXTENDED_LEFT",
+                "alert": {
+                    "status": false,
+                    "message": ""
+                },
+                "excluded": false,
+                "notes": null,
+                "plot": {
+                    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAZABkAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCADPAAYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5/ooooAKKKKACirJspg23bRTsyeZdz0Z9DUTfd7UV0khXfniivUVOJ859YmU2lJopoX5RRTVyLItGPCiilLgoD70VaM3e5WRt0Y+tFV4ZhsorPmOr2epSh3klR6ZorWj0w7unaiseWR2pwOlRYwu7j0ormZtaEdtnd/Hj9KK0c9TNU3bU4u6umaMru43A/pRUTwkJ83tRXEmz0ZRitzVMSMmeo/8A10UlnOAGBwQMDmipb5dC+Xm1M8SBC5U9wKKzzcDyyfVzRWZqZDTsFAz/ABMf1op725LjHPH9aKLAf//Z",
+                    "xAxis": {
+                        "range": [
+                            5,
+                            7.5
+                        ],
+                        "label": "rfoc",
+                        "unit": "mm"
+                    },
+                    "yAxis": {
+                        "range": [
+                            -2,
+                            5.93
+                        ],
+                        "label": "Depth",
+                        "unit": "mm"
+                    },
+                    "colorBar": {
+                        "xAxis": {
+                            "range": [
+                                -45,
+                                0
+                            ],
+                            "label": "Amplitude",
+                            "unit": "dB"
+                        },
+                        "yAxis": {
+                            "range": [
+                                0,
+                                12
+                            ],
+                            "label": "SWS",
+                            "unit": "m/s"
+                        }
+                    }
+                },
+                "shearwaveSpeed": 2.077647058823529,
+                "percentSliceWidth": 50,
+                "dz": 1.31,
+                "z": -1.2349999999999999
+            },
+            "9suVHDJ8U7LMq_FGMbGbF": {
+                "id": "9suVHDJ8U7LMq_FGMbGbF",
+                "sampleType": "STL",
+                "processing": false,
+                "valueDisplay": true,
+                "selectable": true,
+                "dataSaved": true,
+                "locationId": "INNER_FOREARM_EXTENDED_LEFT",
+                "alert": {
+                    "status": false,
+                    "message": ""
+                },
+                "excluded": false,
+                "notes": null,
+                "plot": {
+                    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAZABkAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCADPAAYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5/ooooAKKKKACirJspg23bRTsyeZdz0Z9DUTfd7UV0khXfniivUVOJ859YmU2lJopoX5RRTVyLItGPCiilLgoD70VaM3e5WRt0Y+tFV4ZhsorPmOr2epSh3klR6ZorWj0w7unaiseWR2pwOlRYwu7j0ormZtaEdtnd/Hj9KK0c9TNU3bU4u6umaMru43A/pRUTwkJ83tRXEmz0ZRitzVMSMmeo/8A10UlnOAGBwQMDmipb5dC+Xm1M8SBC5U9wKKzzcDyyfVzRWZqZDTsFAz/ABMf1op725LjHPH9aKLAf//Z",
+                    "xAxis": {
+                        "range": [
+                            5,
+                            7.5
+                        ],
+                        "label": "rfoc",
+                        "unit": "mm"
+                    },
+                    "yAxis": {
+                        "range": [
+                            -2,
+                            5.93
+                        ],
+                        "label": "Depth",
+                        "unit": "mm"
+                    },
+                    "colorBar": {
+                        "xAxis": {
+                            "range": [
+                                -45,
+                                0
+                            ],
+                            "label": "Amplitude",
+                            "unit": "dB"
+                        },
+                        "yAxis": {
+                            "range": [
+                                0,
+                                12
+                            ],
+                            "label": "SWS",
+                            "unit": "m/s"
+                        }
+                    }
+                },
+                "shearwaveSpeed": 2.001176470588235,
+                "percentSliceWidth": 50,
+                "dz": 1.31,
+                "z": -1.305
+            },
+            "Pdelzpsmo3k6lkrTtXEdr": {
+                "id": "Pdelzpsmo3k6lkrTtXEdr",
+                "sampleType": "STL",
+                "processing": false,
+                "valueDisplay": true,
+                "selectable": true,
+                "dataSaved": true,
+                "locationId": "INNER_FOREARM_EXTENDED_LEFT",
+                "alert": {
+                    "status": false,
+                    "message": ""
+                },
+                "excluded": false,
+                "notes": null,
+                "plot": {
+                    "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAZABkAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCADPAAYDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD5/ooooAKKKKACirJspg23bRTsyeZdz0Z9DUTfd7UV0khXfniivUVOJ859YmU2lJopoX5RRTVyLItGPCiilLgoD70VaM3e5WRt0Y+tFV4ZhsorPmOr2epSh3klR6ZorWj0w7unaiseWR2pwOlRYwu7j0ormZtaEdtnd/Hj9KK0c9TNU3bU4u6umaMru43A/pRUTwkJ83tRXEmz0ZRitzVMSMmeo/8A10UlnOAGBwQMDmipb5dC+Xm1M8SBC5U9wKKzzcDyyfVzRWZqZDTsFAz/ABMf1op725LjHPH9aKLAf//Z",
+                    "xAxis": {
+                        "range": [
+                            5,
+                            7.5
+                        ],
+                        "label": "rfoc",
+                        "unit": "mm"
+                    },
+                    "yAxis": {
+                        "range": [
+                            -2,
+                            5.93
+                        ],
+                        "label": "Depth",
+                        "unit": "mm"
+                    },
+                    "colorBar": {
+                        "xAxis": {
+                            "range": [
+                                -45,
+                                0
+                            ],
+                            "label": "Amplitude",
+                            "unit": "dB"
+                        },
+                        "yAxis": {
+                            "range": [
+                                0,
+                                12
+                            ],
+                            "label": "SWS",
+                            "unit": "m/s"
+                        }
+                    }
+                },
+                "shearwaveSpeed": 2.143529411764706,
+                "percentSliceWidth": 50,
+                "dz": 1.31,
+                "z": -1.185
+            }
+        }
+    },
+    "formData": {
+        "ids": [
+            "ARM"
+        ],
+        "entities": {
+            "ARM": {
+                "id": "ARM",
+                "completed": true,
+                "data": {
+                    "right_arm_length": 33,
+                    "left_arm_length": 35,
+                    "swelling": "Swelling on the right arm",
+                    "mobility": "0",
+                    "other": ""
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,352 @@
+{
+    "examDefId": "FACE_SHORT",
+    "examDefName": "Facial Assessment Short",
+    "modified": false,
+    "locationTemplate": {
+        "name": null,
+        "sampleTypes": {
+            "BMODE": {
+                "displayName": "T-Mode",
+                "requiredNumber": 1,
+                "paramId": "gamma_bmode"
+            },
+            "STL": {
+                "displayName": "E-Mode",
+                "requiredNumber": 3,
+                "paramId": "gamma_stl_5p0_0p5_7p5"
+            }
+        },
+        "notes": null,
+        "excluded": false,
+        "instructions": {
+            "text": "",
+            "illustration": []
+        },
+        "mapCoords": {}
+    },
+    "locations": {
+        "ids": [
+            "UNDER_EYES_RIGHT",
+            "CHEEK_RIGHT",
+            "JAW_RIGHT",
+            "UNDER_EYES_LEFT",
+            "CHEEK_LEFT",
+            "JAW_LEFT"
+        ],
+        "entities": {
+            "UNDER_EYES_RIGHT": {
+                "id": "UNDER_EYES_RIGHT",
+                "name": "Under Eyes (R)",
+                "sampleTypes": {
+                    "BMODE": {
+                        "displayName": "T-Mode",
+                        "requiredNumber": 1,
+                        "paramId": "gamma_bmode"
+                    },
+                    "STL": {
+                        "displayName": "E-Mode",
+                        "requiredNumber": 5,
+                        "paramId": "gamma_stl_5p0_0p5_7p5"
+                    }
+                },
+                "notes": null,
+                "excluded": false,
+                "instructions": {
+                    "text": "When acquiring a T-Mode sample, slowly drag the transducer wand along the skin in a swipe like motion for a distance of approximately two inches. T-Mode acquisition lasts five seconds. When acquiring subsequent E-Mode samples, hold the transducer steady on the skin. E-Mode acquisition lasts two seconds.",
+                    "illustration": [
+                        {
+                            "image": null,
+                            "filename": "undereyeRight.png"
+                        }
+                    ]
+                },
+                "mapCoords": {
+                    "FACE_MAP": [
+                        42.5531914893617,
+                        47.100515463917525,
+                        42.269503546099294,
+                        49.93556701030928,
+                        41.91489361702128,
+                        52.126288659793815,
+                        39.787234042553195,
+                        53.15721649484536,
+                        36.241134751773046,
+                        53.47938144329897,
+                        32.836879432624116,
+                        53.73711340206186,
+                        29.21985815602837,
+                        53.47938144329897,
+                        26.595744680851062,
+                        52.19072164948454,
+                        25.74468085106383,
+                        50.06443298969072,
+                        25.81560283687943,
+                        46.84278350515464,
+                        28.72340425531915,
+                        47.615979381443296,
+                        32.4822695035461,
+                        48.06701030927835,
+                        36.38297872340426,
+                        48.26030927835052,
+                        39.858156028368796,
+                        47.74484536082474
+                    ]
+                }
+            },
+            "CHEEK_RIGHT": {
+                "id": "CHEEK_RIGHT",
+                "name": "Cheek (R)",
+                "sampleTypes": {
+                    "BMODE": {
+                        "displayName": "T-Mode",
+                        "requiredNumber": 1,
+                        "paramId": "gamma_bmode"
+                    },
+                    "STL": {
+                        "displayName": "E-Mode",
+                        "requiredNumber": 5,
+                        "paramId": "gamma_stl_5p0_0p5_7p5"
+                    }
+                },
+                "notes": null,
+                "excluded": false,
+                "instructions": {
+                    "text": "When acquiring a T-Mode sample, slowly drag the transducer wand along the skin in a swipe like motion for a distance of approximately two inches. T-Mode acquisition lasts five seconds. When acquiring subsequent E-Mode samples, hold the transducer steady on the skin. E-Mode acquisition lasts two seconds.",
+                    "illustration": [
+                        {
+                            "image": null,
+                            "filename": "cheekRight.png"
+                        }
+                    ]
+                },
+                "mapCoords": {
+                    "FACE_MAP": [
+                        37.801418439716315,
+                        59.40721649484536,
+                        37.801418439716315,
+                        71.06958762886597,
+                        28.581560283687942,
+                        69.52319587628865,
+                        21.70212765957447,
+                        67.59020618556701,
+                        19.50354609929078,
+                        54.70360824742268,
+                        29.00709219858156,
+                        57.79639175257732,
+                        33.333333333333336,
+                        58.76288659793814
+                    ]
+                }
+            },
+            "JAW_RIGHT": {
+                "id": "JAW_RIGHT",
+                "name": "Jaw (R)",
+                "sampleTypes": {
+                    "BMODE": {
+                        "displayName": "T-Mode",
+                        "requiredNumber": 1,
+                        "paramId": "gamma_bmode"
+                    },
+                    "STL": {
+                        "displayName": "E-Mode",
+                        "requiredNumber": 5,
+                        "paramId": "gamma_stl_5p0_0p5_7p5"
+                    }
+                },
+                "notes": null,
+                "excluded": false,
+                "instructions": {
+                    "text": "When acquiring a T-Mode sample, slowly drag the transducer wand along the skin in a swipe like motion for a distance of approximately two inches. T-Mode acquisition lasts five seconds. When acquiring subsequent E-Mode samples, hold the transducer steady on the skin. E-Mode acquisition lasts two seconds.",
+                    "illustration": [
+                        {
+                            "image": null,
+                            "filename": "jawRight.png"
+                        }
+                    ]
+                },
+                "mapCoords": {
+                    "FACE_MAP": [
+                        25.106382978723403,
+                        76.86855670103093,
+                        27.375886524822697,
+                        79.63917525773196,
+                        34.46808510638298,
+                        85.05154639175258,
+                        43.12056737588652,
+                        89.5618556701031,
+                        45.177304964539005,
+                        84.92268041237114,
+                        45.88652482269504,
+                        80.3479381443299,
+                        39.00709219858156,
+                        78.22164948453609,
+                        34.255319148936174,
+                        76.67525773195877,
+                        27.5177304964539,
+                        74.29123711340206
+                    ]
+                }
+            },
+            "UNDER_EYES_LEFT": {
+                "id": "UNDER_EYES_LEFT",
+                "name": "Under Eyes (L)",
+                "sampleTypes": {
+                    "BMODE": {
+                        "displayName": "T-Mode",
+                        "requiredNumber": 1,
+                        "paramId": "gamma_bmode"
+                    },
+                    "STL": {
+                        "displayName": "E-Mode",
+                        "requiredNumber": 5,
+                        "paramId": "gamma_stl_5p0_0p5_7p5"
+                    }
+                },
+                "notes": null,
+                "excluded": false,
+                "instructions": {
+                    "text": "When acquiring a T-Mode sample, slowly drag the transducer wand along the skin in a swipe like motion for a distance of approximately two inches. T-Mode acquisition lasts five seconds. When acquiring subsequent E-Mode samples, hold the transducer steady on the skin. E-Mode acquisition lasts two seconds.",
+                    "illustration": [
+                        {
+                            "image": null,
+                            "filename": "undereyeLeft.png"
+                        }
+                    ]
+                },
+                "mapCoords": {
+                    "FACE_MAP": [
+                        57.163120567375884,
+                        47.100515463917525,
+                        57.4468085106383,
+                        49.93556701030928,
+                        57.801418439716315,
+                        52.126288659793815,
+                        59.9290780141844,
+                        53.15721649484536,
+                        63.47517730496454,
+                        53.47938144329897,
+                        66.87943262411348,
+                        53.73711340206186,
+                        70.49645390070921,
+                        53.47938144329897,
+                        73.12056737588652,
+                        52.19072164948454,
+                        73.97163120567376,
+                        50.06443298969072,
+                        73.90070921985816,
+                        46.84278350515464,
+                        70.99290780141844,
+                        47.615979381443296,
+                        67.23404255319149,
+                        48.06701030927835,
+                        63.333333333333336,
+                        48.26030927835052,
+                        59.858156028368796,
+                        47.74484536082474
+                    ]
+                }
+            },
+            "CHEEK_LEFT": {
+                "id": "CHEEK_LEFT",
+                "name": "Cheek (L)",
+                "sampleTypes": {
+                    "BMODE": {
+                        "displayName": "T-Mode",
+                        "requiredNumber": 1,
+                        "paramId": "gamma_bmode"
+                    },
+                    "STL": {
+                        "displayName": "E-Mode",
+                        "requiredNumber": 5,
+                        "paramId": "gamma_stl_5p0_0p5_7p5"
+                    }
+                },
+                "notes": null,
+                "excluded": false,
+                "instructions": {
+                    "text": "When acquiring a T-Mode sample, slowly drag the transducer wand along the skin in a swipe like motion for a distance of approximately two inches. T-Mode acquisition lasts five seconds. When acquiring subsequent E-Mode samples, hold the transducer steady on the skin. E-Mode acquisition lasts two seconds.",
+                    "illustration": [
+                        {
+                            "image": null,
+                            "filename": "cheekLeft.png"
+                        }
+                    ]
+                },
+                "mapCoords": {
+                    "FACE_MAP": [
+                        61.91489361702128,
+                        59.40721649484536,
+                        61.91489361702128,
+                        71.06958762886597,
+                        71.13475177304964,
+                        69.52319587628865,
+                        78.01418439716312,
+                        67.59020618556701,
+                        80.2127659574468,
+                        54.70360824742268,
+                        70.70921985815603,
+                        57.79639175257732,
+                        66.38297872340425,
+                        58.76288659793814
+                    ]
+                }
+            },
+            "JAW_LEFT": {
+                "id": "JAW_LEFT",
+                "name": "Jaw (L)",
+                "sampleTypes": {
+                    "BMODE": {
+                        "displayName": "T-Mode",
+                        "requiredNumber": 1,
+                        "paramId": "gamma_bmode"
+                    },
+                    "STL": {
+                        "displayName": "E-Mode",
+                        "requiredNumber": 5,
+                        "paramId": "gamma_stl_5p0_0p5_7p5"
+                    }
+                },
+                "notes": null,
+                "excluded": false,
+                "instructions": {
+                    "text": "When acquiring a T-Mode sample, slowly drag the transducer wand along the skin in a swipe like motion for a distance of approximately two inches. T-Mode acquisition lasts five seconds. When acquiring subsequent E-Mode samples, hold the transducer steady on the skin. E-Mode acquisition lasts two seconds.",
+                    "illustration": [
+                        {
+                            "image": null,
+                            "filename": "jawLeft.png"
+                        }
+                    ]
+                },
+                "mapCoords": {
+                    "FACE_MAP": [
+                        74.60992907801419,
+                        76.86855670103093,
+                        72.34042553191489,
+                        79.63917525773196,
+                        65.2482269503546,
+                        85.05154639175258,
+                        56.59574468085106,
+                        89.5618556701031,
+                        54.53900709219858,
+                        84.92268041237114,
+                        53.829787234042556,
+                        80.3479381443299,
+                        60.709219858156025,
+                        78.22164948453609,
+                        65.46099290780141,
+                        76.67525773195877,
+                        72.19858156028369,
+                        74.29123711340206
+                    ]
+                }
+            }
+        }
+    },
+    "maps": {
+        "FACE_MAP": {
+            "name": "Face Map",
+            "image": null,
+            "filename": "generic_face.png"
+        }
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "organizationId": "DEMO_ORG",
+    "organizationName": "Demo Organization",
+    "protocols": {
+        "FACE": "Face Assesment",
+        "ARM": "Full Arm Assesment"
+    },
+    "protocolDef": {
+        "FACE": {
+            "examDef": "FACE_SHORT",
+            "formDef": "SKIN_CONDITION"
+        },
+        "ARM": {
+            "examDef": "FOREARM",
+            "formDef": "ARM"
+        }
+    },
+    "participants": {
+        "P1": {
+            "participantSecondaryId": "PATIENT_1",
+            "firstName": "Jane",
+            "lastName": "Doe",
+            "dateOfBirth": "1990-01-01"
+        },
+        "P2": {
+            "participantSecondaryId": "PATIENT_2",
+            "firstName": "John",
+            "lastName": "Smith",
+            "dateOfBirth": "1992-02-01"
+        }
+    },
+    "visitMetadata": {
+        "visit1": {
+            "visitId": "visit1",
+            "protocolId": "FACE",
+            "protocolName": "Face Assesment",
+            "participantId": "P1",
+            "participantSecondaryId": "PATIENT_1",
+            "visitDate": "2021-10-09 14:57:01",
+            "status": "LOCAL"
+        },
+        "visit2": {
+            "visitId": "visit2",
+            "protocolId": "ARM",
+            "protocolName": "Full Arm Assesment",
+            "participantId": "P2",
+            "participantSecondaryId": "PATIENT_2",
+            "visitDate": "2022-02-09 11:30:01",
+            "status": "LOCAL"
+        }
+    }
+}

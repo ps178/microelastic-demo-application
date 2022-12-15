@@ -1,0 +1,34 @@
+{
+    "image": null,
+    "xAxis": {
+        "range": [
+            0,
+            4.99
+        ],
+        "label": "T",
+        "unit": "s"
+    },
+    "yAxis": {
+        "range": [
+            -1,
+            5
+        ],
+        "label": "Depth",
+        "unit": "mm"
+    },
+    "colorBar": {
+        "range": [
+            -40,
+            0
+        ],
+        "label": "Amplitude",
+        "unit": "dB"
+    },
+    "topSurface": 0,
+    "bottomSurface": 1.31,
+    "thickness": 1.31,
+    "alert": {
+        "status": false,
+        "message": ""
+    }
+}
