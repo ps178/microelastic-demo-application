@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/microelastic-demo-application/static/css/main.fe7a2633.css",
-    "main.js": "/microelastic-demo-application/static/js/main.e356a65e.js",
+    "main.js": "/microelastic-demo-application/static/js/main.02b0a38f.js",
     "static/media/rotateDown.gif": "/microelastic-demo-application/static/media/rotateDown.a496d62f4b35b94d7462.gif",
     "static/media/capOn.gif": "/microelastic-demo-application/static/media/capOn.8982071df61b7a59783a.gif",
     "static/media/forearmExtendedLeft.png": "/microelastic-demo-application/static/media/forearmExtendedLeft.c7a48b52a249fcf5f67f.png",
@@ -31,10 +31,10 @@
     "static/media/bmode_-60_-40.jpg": "/microelastic-demo-application/static/media/bmode_-60_-40.b1e45db5aa56c5fc59e6.jpg",
     "index.html": "/microelastic-demo-application/index.html",
     "main.fe7a2633.css.map": "/microelastic-demo-application/static/css/main.fe7a2633.css.map",
-    "main.e356a65e.js.map": "/microelastic-demo-application/static/js/main.e356a65e.js.map"
+    "main.02b0a38f.js.map": "/microelastic-demo-application/static/js/main.02b0a38f.js.map"
   },
   "entrypoints": [
     "static/css/main.fe7a2633.css",
-    "static/js/main.e356a65e.js"
+    "static/js/main.02b0a38f.js"
   ]
 }
