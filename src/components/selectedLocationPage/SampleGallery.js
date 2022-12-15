@@ -10,7 +10,6 @@ import { setSelectedSampleId } from "../../reducerSlices/samplesSlice";
 import { locationSubviews } from "../../constants/pageMap";
 import { selectSampleById } from "../../reducerSlices/samplesSlice";
 import { selectLocationById } from "../../reducerSlices/locationsSlice";
-import devGif from "../../constants/dev.gif";
 import { CircularProgress, FormControlLabel, Switch } from "@mui/material";
 function SampleGallery() {
   const dispatch = useDispatch();
@@ -149,12 +148,6 @@ function SampleGallery() {
                 )}
               </div>
             ))}
-
-          {/* <div
-          class={`selectedLocationPage-gallery-image selectedLocationPage-gallery-image--primary`}
-        >
-          <img src={devGif} />
-        </div> */}
         </div>
       )}
       {Object.keys(samplesById).length !== 0 && (
