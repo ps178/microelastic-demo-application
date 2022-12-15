@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/microelastic-demo-application/static/css/main.fe7a2633.css",
+    "main.js": "/microelastic-demo-application/static/js/main.e356a65e.js",
+    "static/media/rotateDown.gif": "/microelastic-demo-application/static/media/rotateDown.a496d62f4b35b94d7462.gif",
+    "static/media/capOn.gif": "/microelastic-demo-application/static/media/capOn.8982071df61b7a59783a.gif",
+    "static/media/forearmExtendedLeft.png": "/microelastic-demo-application/static/media/forearmExtendedLeft.c7a48b52a249fcf5f67f.png",
+    "static/media/forearm_map.png": "/microelastic-demo-application/static/media/forearm_map.ee529e3567421707b3d6.png",
+    "static/media/forearmExtendedRight.png": "/microelastic-demo-application/static/media/forearmExtendedRight.5d9e42aebb1258b75b63.png",
+    "static/media/forearmFlexedRight.png": "/microelastic-demo-application/static/media/forearmFlexedRight.a3b857b544c438655300.png",
+    "static/media/forearmFlexedLeft.png": "/microelastic-demo-application/static/media/forearmFlexedLeft.65049f54c2ec43ad4aa7.png",
+    "static/media/generic_face.png": "/microelastic-demo-application/static/media/generic_face.6f433a44c9bd558a9673.png",
+    "static/media/sprite.svg": "/microelastic-demo-application/static/media/sprite.51cab8e4e026b7193260ac71d26c3da9.svg",
+    "static/media/undereyeRight.png": "/microelastic-demo-application/static/media/undereyeRight.ccef0ac658f63734737f.png",
+    "static/media/undereyeLeft.png": "/microelastic-demo-application/static/media/undereyeLeft.a9b870146f3f8d4b2129.png",
+    "static/media/cheekRight.png": "/microelastic-demo-application/static/media/cheekRight.279854c5638b4605abf5.png",
+    "static/media/cheekLeft.png": "/microelastic-demo-application/static/media/cheekLeft.4e5bd2c1b2d5788eb379.png",
+    "static/media/pushBubble.png": "/microelastic-demo-application/static/media/pushBubble.b2b3967ce5a987e77aa2.png",
+    "static/media/jawRight.png": "/microelastic-demo-application/static/media/jawRight.03e1f67e1ae705903116.png",
+    "static/media/jawLeft.png": "/microelastic-demo-application/static/media/jawLeft.3a4af7af0d9d07afd04d.png",
+    "static/media/holster.png": "/microelastic-demo-application/static/media/holster.2d00c4b94327b44ae88c.png",
+    "static/media/Quicksand-SemiBold.woff": "/microelastic-demo-application/static/media/Quicksand-SemiBold.729218d1abc6dd2c2858.woff",
+    "static/media/Quicksand-Regular.woff": "/microelastic-demo-application/static/media/Quicksand-Regular.f0297ee1055ef6253f2b.woff",
+    "static/media/Quicksand-SemiBold.woff2": "/microelastic-demo-application/static/media/Quicksand-SemiBold.666d74ece0f5d87520aa.woff2",
+    "static/media/Quicksand-Regular.woff2": "/microelastic-demo-application/static/media/Quicksand-Regular.af5318ab864f0617e4df.woff2",
+    "static/media/bmode_-40_0.jpg": "/microelastic-demo-application/static/media/bmode_-40_0.4a6bdb083d93803c8ef1.jpg",
+    "static/media/bmode_-40_-20.jpg": "/microelastic-demo-application/static/media/bmode_-40_-20.16c7efe463a75b3d4a27.jpg",
+    "static/media/bmode_-60_0.jpg": "/microelastic-demo-application/static/media/bmode_-60_0.a576c824b8e959a71c51.jpg",
+    "static/media/bmode_-60_-20.jpg": "/microelastic-demo-application/static/media/bmode_-60_-20.80ece795ff7a42cfdf59.jpg",
+    "static/media/bmode_-20_0.jpg": "/microelastic-demo-application/static/media/bmode_-20_0.370caeedc2f220a8b41a.jpg",
+    "static/media/bmode_-60_-40.jpg": "/microelastic-demo-application/static/media/bmode_-60_-40.b1e45db5aa56c5fc59e6.jpg",
+    "index.html": "/microelastic-demo-application/index.html",
+    "main.fe7a2633.css.map": "/microelastic-demo-application/static/css/main.fe7a2633.css.map",
+    "main.e356a65e.js.map": "/microelastic-demo-application/static/js/main.e356a65e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe7a2633.css",
+    "static/js/main.e356a65e.js"
+  ]
+}
