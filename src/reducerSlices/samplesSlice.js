@@ -293,7 +293,23 @@ export const samplesSlice = createSlice({
     builder.addCase(logOut, () => initialState);
     builder.addCase(quitVisit, () => initialState);
     builder.addCase(fetchLoadLocalVisit, (draft, action) => {
-      samplesAdapter.setAll(draft, allVisits[action.payload].samples.entities);
+      let visitSamples = allVisits[action.payload].samples;
+
+      Object.keys(visitSamples.entities).map((sampleId) => {
+        if (visitSamples.entities[sampleId].sampleType === "BMODE") {
+          visitSamples.entities[sampleId].plot.image =
+            allBmodeImages[
+              `bmode_${visitSamples.entities[sampleId].plot.colorBar.range[0]}_${visitSamples.entities[sampleId].plot.colorBar.range[1]}.jpg`
+            ];
+        } else {
+          visitSamples.entities[sampleId].plot.image =
+            allStlImages[
+              `stl_${visitSamples.entities[sampleId].plot.colorBar.yAxis.range[0]}_${visitSamples.entities[sampleId].plot.colorBar.yAxis.range[1]}.jpg`
+            ];
+        }
+      });
+
+      samplesAdapter.setAll(draft, visitSamples.entities);
     });
 
     //   builder.addMatcher(
